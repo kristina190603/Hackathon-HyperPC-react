@@ -1,11 +1,11 @@
 import React from 'react';
 
-const ModelsPage = () => {
+const BlogersBlock = () => {
     return (
         <div>
-            Models Page
+            
         </div>
     );
 };
 
-export default ModelsPage;
+export default BlogersBlock;

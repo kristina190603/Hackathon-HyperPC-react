@@ -1,3 +1,11 @@
+html{
+  background: #171717;
+}
+
+#root{
+  background: #171717;
+}
+
 .logo1 {
   width: 50px;
   height: 50px;
@@ -5,12 +13,72 @@
 }
 
 .logo2{
-  width: 100px;
+  width: 150px;
   height: 50px;
 }
 .css-hyum1k-MuiToolbar-root{
   background-color: #222;
 }
+.css-ag7rrr-MuiTypography-root{
+  color: white;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:invalid{
+  background-color: white;
+}
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root{
+  color: #1976d2 !important;
+}
+.css-ahj2mt-MuiTypography-root{
+  color: white;
+}
+.css-ijul54-MuiTypography-root{
+  color: white !important;
+}
 .css-ffmerx{
 gap: 25px !important;
+}
+a:-webkit-any-link{
+  text-decoration: none !important;
+}
+.css-jb1ygz-MuiTypography-root {
+  color: #999 !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  height: 4rem !important;
+  width: 3rem!important;
+}
+.d-block{
+  width: 130%;
+  margin-left: -15%;
+}
+.carouselPar1{
+  position: absolute;
+  color: white;
+  transform: translate(10vw, 23vh);
+  font-size: 50px;
+  font-weight: 600;
+}
+.carouselPar2{
+  position: absolute;
+  color: #999;
+  transform: translate(10vw, 35vh);
+  font-size: 30px;
+  font-weight: 600;
+}
+.carouselPar3 {
+  position: absolute;
+  color: white;
+  transform: translate(10vw, 42vh);
+  width: 30vw;
+  font-size: 20px;
+}
+.btnCarousel{
+  position: absolute;
+  font-size: 15px;
+  transform: translate(10vw, 46vh);
+  color: white;
+  background-color: #f51616;
+  width: 8vw;
+  border: 1px solid #f51616;
+  height: 5vh;
 }

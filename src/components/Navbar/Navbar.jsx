@@ -9,17 +9,16 @@ import InputBase from "@mui/material/InputBase";
 import Badge from "@mui/material/Badge";
 import MenuItem from "@mui/material/MenuItem";
 import Menu from "@mui/material/Menu";
-import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
 import AccountCircle from "@mui/icons-material/AccountCircle";
 import MailIcon from "@mui/icons-material/Mail";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import MoreIcon from "@mui/icons-material/MoreVert";
 import { Link, useNavigate } from "react-router-dom";
-import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
+import ShoppingCartCheckoutIcon from "@mui/icons-material/ShoppingCartCheckout";
 import { useAuth } from "../contexts/authContext";
 import { ADMIN } from "../helpers/consts";
-import "../../../src/App.css"
+import "../../../src/App.css";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -62,21 +61,22 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 
 const pages = [
-  { name: "О КОМПАНИИ", link: "/about", id: 1 },
-  { name: "CONTACT US", link: "/contacts", id: 2 },
-  { name: "PRODUCTS", link: "/products", id: 3 },
+  { name: "МОДЕЛИ", link: "/models", id: 1 },
+  { name: "О КОМПАНИИ", link: "/about", id: 2 },
+  { name: "КОНТАКТЫ", link: "/contacts", id: 3 },
+  { name: "УСЛУГИ", link: "/services", id: 4 },
+  // { name: "PRODUCTS", link: "/products", id: 3 },
 ];
 
 export default function Navbar() {
-
   const navigate = useNavigate();
 
   const { user, handleLogout } = useAuth();
-//   const { getCart, cart } = useCart();
+  //   const { getCart, cart } = useCart();
 
-//   React.useEffect(() => {
-//     getCart();
-//   }, []);
+  //   React.useEffect(() => {
+  //     getCart();
+  //   }, []);
 
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
@@ -103,7 +103,8 @@ export default function Navbar() {
 
   const menuId = "primary-search-account-menu";
   const renderMenu = (
-    <Menu className="backgroundNavbar"
+    <Menu
+      className="backgroundNavbar"
       anchorEl={anchorEl}
       anchorOrigin={{
         vertical: "top",
@@ -139,7 +140,7 @@ export default function Navbar() {
 
   const mobileMenuId = "primary-search-account-menu-mobile";
   const renderMobileMenu = (
-    <Menu 
+    <Menu
       anchorEl={mobileMoreAnchorEl}
       anchorOrigin={{
         vertical: "top",
@@ -199,10 +200,18 @@ export default function Navbar() {
             component="div"
             sx={{ display: { xs: "none", sm: "block" } }}
           >
-        
-       <img className="logo1" src="https://hyperpc.ru/templates/hyperpc/images/icons/hyperpc/android-chrome-512x512.png" alt="" />
-            <img className="logo2" src="https://hyperpc.ru/templates/hyperpc/images/logos/hyperpc-logo-white-name-only-stencil.svg" alt="" />
-         
+            <a href="/">
+              <img
+                className="logo1"
+                src="https://hyperpc.ru/templates/hyperpc/images/icons/hyperpc/android-chrome-512x512.png"
+                alt=""
+              />
+              <img
+                className="logo2"
+                src="https://hyperpc.ru/templates/hyperpc/images/logos/hyperpc-logo-white-name-only-stencil.svg"
+                alt=""
+              />
+            </a>
           </Typography>
           <Search>
             <SearchIconWrapper>
@@ -234,7 +243,7 @@ export default function Navbar() {
           </Box>
 
           <Box sx={{ flexGrow: 1 }} />
-          
+
           {user ? <Box>{user.email}</Box> : <Box>Не авторизован</Box>}
 
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
@@ -245,7 +254,7 @@ export default function Navbar() {
               onClick={() => navigate("/cart")}
             >
               {/* <Badge badgeContent={cart?.products.length} color="error"> */}
-                <ShoppingCartCheckoutIcon />
+              <ShoppingCartCheckoutIcon />
               {/* </Badge> */}
             </IconButton>
 

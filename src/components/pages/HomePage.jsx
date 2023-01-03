@@ -1,11 +1,10 @@
 import React from 'react';
+import CarouselSlider from '../carousel/CarouselSlider';
 
 const HomePage = () => {
     return (
-        <div>
-            HOME PAGE
-        </div>
-    );
+        <CarouselSlider/>
+        );
 };
 
 export default HomePage;

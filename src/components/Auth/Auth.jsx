@@ -43,7 +43,7 @@ export default function Auth() {
   const {
     email,
     password,
-    user,
+    // user,
 
     emailError,
     passwordError,
@@ -54,7 +54,7 @@ export default function Auth() {
     setHasAccount,
 
     handleLogin,
-    handleLogout,
+    // handleLogout,
     handleSignUp,
   } = useAuth();
 
