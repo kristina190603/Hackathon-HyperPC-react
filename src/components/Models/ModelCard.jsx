@@ -9,6 +9,7 @@ import { ADMIN } from "../helpers/consts";
 
 
 function ModelCard ({item}) {
+  console.log(item);
     const navigate = useNavigate()
 
     const { addModelToCart, checkModelInCart} = useCart()
@@ -26,6 +27,7 @@ function ModelCard ({item}) {
         />
 
         <CardContent>
+          <img src={item.image} alt="image" />
           <Typography gutterBottom variant="h5" component="div">{item.name}</Typography>
           <Typography gutterBottom variant="h5" component="div">{item.price}</Typography>
           <Typography gutterBottom variant="h5" component="div">{item.info}</Typography>

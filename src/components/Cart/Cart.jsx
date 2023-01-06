@@ -47,7 +47,6 @@ export default function Cart() {
       <Table sx={{ minWidth: 700 }} aria-label="customized table">
         <TableHead>
           <TableRow>
-            <StyledTableCell>Picture</StyledTableCell>
             <StyledTableCell align="right">Image</StyledTableCell>
             <StyledTableCell align="right">Name</StyledTableCell>
             <StyledTableCell align="right">Price</StyledTableCell>

@@ -13,10 +13,10 @@ import { useModels } from "../contexts/modelsContext";
 const ModelDetails = () => {
   const { id } = useParams();
   const { getOneModel, oneModel } = useModels();
-
   useEffect(() => {
     getOneModel(id);
   });
+  console.log(oneModel);
 
   return (
     <Card sx={{ maxWidth: 345 }}>
