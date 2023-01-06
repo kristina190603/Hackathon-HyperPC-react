@@ -1,8 +1,8 @@
-html{
+html {
   background: #171717;
 }
 
-#root{
+#root {
   background: #171717;
 }
 
@@ -12,58 +12,60 @@ html{
   gap: 5%;
 }
 
-.logo2{
+.logo2 {
   width: 150px;
   height: 50px;
 }
-.css-hyum1k-MuiToolbar-root{
+.css-hyum1k-MuiToolbar-root {
   background-color: #222;
 }
-.css-ag7rrr-MuiTypography-root{
+.css-ag7rrr-MuiTypography-root {
   color: white;
 }
-.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:invalid{
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:invalid {
   background-color: white;
 }
-.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root{
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
   color: #1976d2 !important;
 }
-.css-ahj2mt-MuiTypography-root{
+.css-ahj2mt-MuiTypography-root {
   color: white;
 }
-.css-ijul54-MuiTypography-root{
+.css-ijul54-MuiTypography-root {
   color: white !important;
 }
-.css-ffmerx{
-gap: 25px !important;
+.css-ffmerx {
+  gap: 25px !important;
 }
-a:-webkit-any-link{
+a:-webkit-any-link {
   text-decoration: none !important;
 }
 .css-jb1ygz-MuiTypography-root {
   color: #999 !important;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon{
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   height: 4rem !important;
-  width: 3rem!important;
+  width: 3rem !important;
 }
-.d-block{
+.d-block {
   width: 130%;
   margin-left: -15%;
 }
-.carouselPar1{
+.carouselPar1 {
   position: absolute;
   color: white;
   transform: translate(10vw, 23vh);
   font-size: 50px;
   font-weight: 600;
 }
-.carouselPar2{
+.carouselPar2 {
   position: absolute;
   color: #999;
   transform: translate(10vw, 35vh);
   font-size: 30px;
   font-weight: 600;
+  top: 30px;
 }
 .carouselPar3 {
   position: absolute;
@@ -72,7 +74,7 @@ a:-webkit-any-link{
   width: 30vw;
   font-size: 20px;
 }
-.btnCarousel{
+.btnCarousel {
   position: absolute;
   font-size: 15px;
   transform: translate(10vw, 46vh);
@@ -82,7 +84,7 @@ a:-webkit-any-link{
   border: 1px solid #f51616;
   height: 5vh;
 }
-.boxTextFieldCreate{
+.boxTextFieldCreate {
   display: flex;
   width: 50%;
 }
