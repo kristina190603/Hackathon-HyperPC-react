@@ -1,5 +1,12 @@
 {
-    "products": [
-        
-    ]
+  "models": [
+    {
+      "image": "https://media.gettyimages.com/id/103201937/photo/sunset-at-2nd-hoogly-bridge.jpg?s=612x612&w=gi&k=20&c=vk1MpW3sw8DQuobfz5JLBHvlbOTVVVQZ5tf5MihM1aM=",
+      "name": "sklf",
+      "price": "kfdlgm",
+      "info": "fkldkfg",
+      "type": "kmflk",
+      "id": 1
+    }
+  ]
 }

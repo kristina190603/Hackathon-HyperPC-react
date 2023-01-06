@@ -82,3 +82,7 @@ a:-webkit-any-link{
   border: 1px solid #f51616;
   height: 5vh;
 }
+.boxTextFieldCreate{
+  display: flex;
+  width: 50%;
+}

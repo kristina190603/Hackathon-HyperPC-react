@@ -15,7 +15,7 @@ function CarouselSlider() {
         <button className="btnCarousel">ПОДРОБНЕЕ</button>
         <img className="d-block " src={carousel1} alt="First slide" />
       </Carousel.Item>
-
+      
       <Carousel.Item>
         <h2 className="carouselPar1">ГОТОВЬСЯ К ПРАЗДНИКАМ!</h2>
         <p className="carouselPar2">ОГРАНИЧЕННАЯ СЕРИЯ КОМПЬЮТЕРОВ <br /> В НАЛИЧИИ С РАССРОЧКОЙ 0%</p>

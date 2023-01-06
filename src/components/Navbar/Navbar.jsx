@@ -19,6 +19,7 @@ import ShoppingCartCheckoutIcon from "@mui/icons-material/ShoppingCartCheckout";
 import { useAuth } from "../contexts/authContext";
 import { ADMIN } from "../helpers/consts";
 import "../../../src/App.css";
+import { useCart } from "../contexts/cartContext";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -72,11 +73,11 @@ export default function Navbar() {
   const navigate = useNavigate();
 
   const { user, handleLogout } = useAuth();
-  //   const { getCart, cart } = useCart();
+    const { getCart, cart } = useCart();
 
-  //   React.useEffect(() => {
-  //     getCart();
-  //   }, []);
+    React.useEffect(() => {
+      getCart();
+    }, []);
 
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
@@ -253,9 +254,9 @@ export default function Navbar() {
               color="inherit"
               onClick={() => navigate("/cart")}
             >
-              {/* <Badge badgeContent={cart?.products.length} color="error"> */}
+              <Badge badgeContent={cart?.models.length} color="error">
               <ShoppingCartCheckoutIcon />
-              {/* </Badge> */}
+              </Badge>
             </IconButton>
 
             <IconButton
