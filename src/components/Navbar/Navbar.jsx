@@ -73,11 +73,11 @@ export default function Navbar() {
   const navigate = useNavigate();
 
   const { user, handleLogout } = useAuth();
-  const { getCart, cart } = useCart();
+    const { getCart, cart } = useCart();
 
-  React.useEffect(() => {
-    getCart();
-  }, []);
+    React.useEffect(() => {
+      getCart();
+    }, []);
 
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
@@ -232,7 +232,7 @@ export default function Navbar() {
               }}
               to="/admin"
             >
-              ADMIN
+              Admin
             </Link>
           ) : null}
           <Box sx={{ display: "flex", gap: "6px" }}>
@@ -255,7 +255,7 @@ export default function Navbar() {
               onClick={() => navigate("/cart")}
             >
               <Badge badgeContent={cart?.models.length} color="error">
-                <ShoppingCartCheckoutIcon />
+              <ShoppingCartCheckoutIcon />
               </Badge>
             </IconButton>
 
