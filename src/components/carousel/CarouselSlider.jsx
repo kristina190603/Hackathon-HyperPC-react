@@ -10,8 +10,8 @@ function CarouselSlider() {
   return (
     <Carousel fade>
       <Carousel.Item>
-        <h2 className="carouselPar1">ВСТРЕЧАЙ НОВЫЙ <br /> 2023 ГОД</h2>
-        <p className="carouselPar2">ВМЕСТЕ С КОМПЬЮТЕРАМИ HYPERPC</p>
+        <h2 className="carouselPar1">NVIDIA GEFORCE RTX 4070 TI</h2>
+        <p className="carouselPar2">БОЛЬШЕ ЧЕМ СКОРОСТЬ</p>
         <button className="btnCarousel">ПОДРОБНЕЕ</button>
         <img className="d-block " src={carousel1} alt="First slide" />
       </Carousel.Item>

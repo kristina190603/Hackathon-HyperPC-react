@@ -21,13 +21,8 @@ function ModelCard ({item}) {
 
     return (
         <Card sx={{ maxWidth: 345 }}>
-        <CardMedia
-        image={item.image}
-        onClick={()=> navigate(`/models/${item.id}`)}
-        />
-
         <CardContent>
-          <img src={item.image} alt="image" />
+          <img src={item.image} onClick={()=> navigate(`/models/${item.id}`)} alt="image" />
           <Typography gutterBottom variant="h5" component="div">{item.name}</Typography>
           <Typography gutterBottom variant="h5" component="div">{item.price}</Typography>
           <Typography gutterBottom variant="h5" component="div">{item.info}</Typography>

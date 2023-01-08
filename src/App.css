@@ -3,7 +3,7 @@ html{
 }
 
 #root{
-  background: #171717;
+  background: #1c1c1c;
 }
 
 .logo1 {
@@ -86,3 +86,4 @@ a:-webkit-any-link{
   display: flex;
   width: 50%;
 }
+

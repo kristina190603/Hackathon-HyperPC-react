@@ -1,0 +1,23 @@
+section{
+    margin-top: 20vh;
+    color: #1c1c1c;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+}
+.lineLI{
+    list-style-type: none;
+    border-top: 2px solid #2a2a2a;
+}
+.blockLinks span a{
+    color: #fff;
+}
+.blockLinks a{
+    color: #999;
+    list-style-type: none;
+    font-size: 17px;
+}
+.blockLinks li{
+    line-height: 30px;
+    margin-left: -18%;
+}

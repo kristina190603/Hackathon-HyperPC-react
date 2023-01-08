@@ -9,20 +9,28 @@
       "id": 1
     },
     {
-      "image": "123",
-      "name": "ылапыдт",
-      "price": "оапт",
-      "info": "патв",
-      "type": "потб",
-      "id": 2
-    },
-    {
       "image": "ва",
       "name": "лвьа",
       "price": "пт",
       "info": "пт ",
       "type": "бьпбь",
       "id": 3
+    },
+    {
+      "image": "https://hyperpc.ru/images/content/choice-model-pc/hyperpc-pro-dual-alt.jpg",
+      "name": "gaming pc",
+      "price": "2000$",
+      "info": "inform",
+      "type": "pc",
+      "id": 4
+    },
+    {
+      "image": "https://hyperpc.ru/images/content/choice-model-pc/hyperpc-pro-dual-alt.jpg",
+      "name": "gaming pd",
+      "price": "200",
+      "info": "pc",
+      "type": "pc",
+      "id": 5
     }
   ]
 }

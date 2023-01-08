@@ -1,19 +1,10 @@
 import React, { createContext, useContext, useReducer } from "react";
 import { CART } from "../helpers/consts";
-
-export function getCountModelsInCart() {
-  const cart = JSON.parse(localStorage.getItem("cart"));
-  return cart ? cart.models.length : 0;
-}
-
-export const calcSubPrice = (model) => +model.count * model.item.price;
-
-export const calcTotalPrice = (models) => {
-  return models.reduce((acc, curr) => {
-    return (acc += curr.subPrice);
-  }, 0);
-};
-
+import {
+  getCountModelsInCart,
+  calcSubPrice,
+  calcTotalPrice,
+} from "../helpers/CartHelp";
 const cartContext = createContext();
 
 export const useCart = () => {
@@ -74,6 +65,7 @@ const CartContextProvider = ({ children }) => {
     };
 
     let modelToFind = cart.models.filter((elem) => elem.item.id === model.id);
+
     if (modelToFind.length == 0) {
       cart.models.push(newModel);
     } else {
@@ -81,7 +73,7 @@ const CartContextProvider = ({ children }) => {
     }
 
     cart.totalPrice = calcTotalPrice(cart.models);
-
+console.log(cart.totalPrice)
     localStorage.setItem("cart", JSON.stringify(cart));
 
     dispatch({
@@ -112,6 +104,7 @@ const CartContextProvider = ({ children }) => {
       return model;
     });
     cart.totalPrice = calcTotalPrice(cart.models);
+
     localStorage.setItem("cart", JSON.stringify(cart));
 
     dispatch({

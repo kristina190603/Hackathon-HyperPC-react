@@ -1,6 +1,7 @@
 import React from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { useAuth } from "../contexts/authContext";
+import Lumen from "../GamingPcCardHomePage/Lumen";
 import { ADMIN } from "../helpers/consts";
 import AboutUs from "../pages/AboutUs";
 import AdminPage from "../pages/AdminPage";
@@ -55,6 +56,11 @@ const MainRoutes = () => {
       link: "/services",
       element: <ServicesPage />,
       id: 8,
+    },
+    {
+      link: "/lumen",
+      element: <Lumen />,
+      id: 9,
     },
   ];
 
