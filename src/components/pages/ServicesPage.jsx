@@ -54,36 +54,38 @@ const ServicesPage = () => {
         </div>
       </div>
       {/* third block */}
-      <div className="block">
-        <div className="left-side">
-          <span className="txt-white">Широкий спектр услуг</span>
-          <span className="txt-grey">
-            Наш квалифицированный специалист по восстановлению компьютерного
-            оборудования с 10-летним опытом работы производит ремонт любой
-            сложности.
-          </span>
-          <span className="txt-white">Что мы делаем:</span>
-          <ul className="txt-grey">
-            <li>Поиск и устранение неисправностей электронных устройств;</li>
-            <li>Монтаж-демонтаж SMD и BGA электронных компонентов;</li>
-            <li>Ремонт комплектующих, ремонт слаботочного оборудования;</li>
-            <li>
-              Замена чипов, микропроцессоров, элементов питания, восстановление
-              контактов и дорожек;
-            </li>
-            <li>Работа с программами диагностики и тестирования ПК;</li>
-            <li>Прошивка микроконтроллеров.</li>
-          </ul>
-          <button onClick={() => navigate("/modal")} className="btn2">
-            ПОСМОТРЕТЬ ПРАЙС-ЛИСТ
-          </button>
-        </div>
-        <div className="right-side">
-          <img
-            src="https://hyperpc.ru/images/support/service-center/hyperpc-service-center-worker_webp.jpg"
-            alt=""
-            width="100%"
-          />
+      <div className="third-block">
+        <div className="block">
+          <div className="left-side">
+            <span className="txt-white">Широкий спектр услуг</span>
+            <span className="txt-grey">
+              Наш квалифицированный специалист по восстановлению компьютерного
+              оборудования с 10-летним опытом работы производит ремонт любой
+              сложности.
+            </span>
+            <span className="txt-white">Что мы делаем:</span>
+            <ul className="txt-grey">
+              <li>Поиск и устранение неисправностей электронных устройств;</li>
+              <li>Монтаж-демонтаж SMD и BGA электронных компонентов;</li>
+              <li>Ремонт комплектующих, ремонт слаботочного оборудования;</li>
+              <li>
+                Замена чипов, микропроцессоров, элементов питания,
+                восстановление контактов и дорожек;
+              </li>
+              <li>Работа с программами диагностики и тестирования ПК;</li>
+              <li>Прошивка микроконтроллеров.</li>
+            </ul>
+            <button onClick={() => navigate("/models")} className="btn2">
+              ПОСМОТРЕТЬ ПРАЙС-ЛИСТ
+            </button>
+          </div>
+          <div className="right-side">
+            <img
+              src="https://hyperpc.ru/images/support/service-center/hyperpc-service-center-worker_webp.jpg"
+              alt=""
+              width="100%"
+            />
+          </div>
         </div>
       </div>
       {/* forth block */}
@@ -237,7 +239,7 @@ const ServicesPage = () => {
       </div>
       {/* fifth block */}
       <div>
-        <h2 className="txt-center">Выберите свою неисправность</h2>
+        <h2 className="txt-center display-none">Выберите свою неисправность</h2>
         <div className="square-container">
           <div className="square">
             <a href="#modal-does-not-start">
@@ -254,7 +256,7 @@ const ServicesPage = () => {
                 </svg>
               </span>
             </a>
-            <p>Не включается</p>
+            <p className="txt-only-center">Не включается</p>
           </div>
           <div className="square">
             <a href="#modal-not-image" uk-toggle="" aria-expanded="false">
@@ -280,7 +282,7 @@ const ServicesPage = () => {
                 </svg>
               </span>
             </a>
-            <p>Нет изображения</p>
+            <p className="txt-only-center">Нет изображения</p>
           </div>
           <div className="square">
             <a
@@ -347,7 +349,7 @@ const ServicesPage = () => {
                 </svg>
               </span>
             </a>
-            <p>Попала жидкость</p>
+            <p className="txt-only-center">Попала жидкость</p>
           </div>
           <div className="square">
             <a
@@ -367,7 +369,7 @@ const ServicesPage = () => {
                 </svg>
               </span>
             </a>
-            <p>Не заряжается ноутбук</p>
+            <p className="txt-only-center">Не заряжается ноутбук</p>
           </div>
           <div className="square">
             <a
@@ -396,7 +398,7 @@ const ServicesPage = () => {
                 </svg>
               </span>
             </a>
-            <p>Не работает клавиатура</p>
+            <p className="txt-only-center">Не работает клавиатура</p>
           </div>
           <div className="square">
             <a href="#modal-no-sound" uk-toggle="" aria-expanded="false">
@@ -414,7 +416,7 @@ const ServicesPage = () => {
                 </svg>
               </span>
             </a>
-            <p>Не работает звук</p>
+            <p className="txt-only-center">Не работает звук</p>
           </div>
           <div className="square">
             <a href="#modal-not-working-usb" uk-toggle="" aria-expanded="false">
@@ -430,7 +432,7 @@ const ServicesPage = () => {
                 </svg>
               </span>
             </a>
-            <p>Не работает USB</p>
+            <p className="txt-only-center">Не работает USB</p>
           </div>
           <div className="square">
             <a
@@ -452,7 +454,7 @@ const ServicesPage = () => {
                 </svg>
               </span>
             </a>
-            <p>Не работает тачпад</p>
+            <p className="txt-only-center">Не работает тачпад</p>
           </div>
           <div className="square">
             <a href="#modal-pc-freeze" uk-toggle="" aria-expanded="false">
@@ -480,7 +482,7 @@ const ServicesPage = () => {
                 </svg>
               </span>
             </a>
-            <p>Устройство зависает</p>
+            <p className="txt-only-center">Устройство зависает</p>
           </div>
           <div className="square">
             <a href="#modal-not-on-the-list" uk-toggle="" aria-expanded="false">
@@ -514,7 +516,7 @@ const ServicesPage = () => {
                 </svg>
               </span>
             </a>
-            <p>Проблема известна</p>
+            <p className="txt-only-center">Проблема известна</p>
           </div>
           <div className="square">
             <a href="#modal-not-on-the-list" uk-toggle="" aria-expanded="false">
@@ -538,7 +540,7 @@ const ServicesPage = () => {
                 </svg>
               </span>
             </a>
-            <p>Нет в списке</p>
+            <p className="txt-only-center">Нет в списке</p>
           </div>
         </div>
       </div>
