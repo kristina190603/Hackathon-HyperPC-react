@@ -55,18 +55,18 @@ body{
   flex-direction: column;
   align-items: flex-start;
 }
-.lumenTextBlock h5 {
+.lumenTextBlock3 h5 {
   color: #999;
   font-weight: 700;
   font-size: 25px;
 }
-.lumenTextBlock h2 {
+.lumenTextBlock3 h2 {
   color: #fff;
   font-size: 40px;
   font-weight: 700;
   letter-spacing: 2px;
 }
-.lumenTextBlock p {
+.lumenTextBlock3 p {
   margin-top: 20px;
   text-align: start;
   color: #999;
@@ -164,24 +164,36 @@ body{
   font-weight: 600;
   font-size: 35px !important;
 }
-.backImage {
+.backImage1 {
   width: 100%;
   margin-left: 1px;
 }
-
-.informationForLumen {
-  background-color: #111;
-  height: 75vh;
+.backImageCover{
+    position: absolute;
+    width: 100%;
+}
+.blockIcons{
+    display: flex;
+margin-left: 35%;
+}
+.blockIcons img {
+    width: 60%;
+}
+.blockIcons div{
+    margin-top: 5%;
+}
+.informationForDynamicFirst {
+  background-color: #000;
+  height: 50%;
   display: flex;
 }
 .blockWidth {
   display: flex;
   /* width: 50%; */
 }
-.blockWithImage img {
-  width: 68vw;
-  margin-top: 6%;
-  margin-left: 40%;
+.blockWithImageDynamic img {
+  width: 60%;
+  margin-left: 45%;
 }
 .lineLI2 {
   list-style-type: none;
@@ -207,8 +219,8 @@ body{
 .divLine {
   border-top: 1px solid #999 !important;
 }
-.informationForLumen2 {
-  background-color: #111;
+.informationForDynamic2 {
+  background-color: #000;
   height: 40vh;
   display: flex;
 }
@@ -230,17 +242,21 @@ body{
   width: 35%;
   font-size: 17px;
 }
-.charac {
-  display: flex;
-  margin-top: 10%;
+.blockWithImageUp img{
+    width: 130%;
+    margin-left: -100%;
 }
-.charac p {
+.charac3 {
+    position: absolute !important;
+    transform: translate(75%, 50%);
+}
+.charac3 p {
   color: #999;
-  line-height: 1.5;
-  font-size: 18px;
+  font-size: 15px;
 }
-.charac div {
+.charac3 div {
   width: 17vw;
+  margin-bottom: 5%;
 }
 .blockWithImage2 img {
   margin-top: 3%;
@@ -264,8 +280,8 @@ body{
   width: 45vw;
   margin-left: -15%;
 }
-.informationForLumen3 {
-  background-color: #111;
+.informationForDynamic3 {
+  background-color: #000;
   height: 50vh;
   display: flex;
 }
@@ -286,9 +302,10 @@ body{
 }
 .blockWithImage4 img {
   width: 50vw;
+  margin-top: 10%;
 }
-.informationForLumen4 {
-  background-color: #111;
+.informationForDynamic4 {
+  background-color: #000;
   height: 80vh;
   display: flex;
 }
@@ -320,7 +337,7 @@ body{
   margin-top: 5%;
 }
 
-.backLinks {
+.backLinksDynamic {
   background-color: #111;
 }
 .navLinks2 {

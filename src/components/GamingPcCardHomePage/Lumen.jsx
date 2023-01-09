@@ -138,7 +138,7 @@ const Lumen = () => {
           />
         </div>
 
-        <div className="informationForLumen">
+        <div className="informationForLumenFirst">
           <div className="blockWidth">
             <div className="BlockTextLumen">
               <h2>GEFORCE® RTX</h2>
@@ -151,7 +151,7 @@ const Lumen = () => {
                 интеллект и программируемые шейдеры
               </p>
             </div>
-            <div className="blockWithImage">
+            <div className="blockWithImageLumen">
               <img
                 src="https://hyperpc.ru/images/product/volt/performance/hyperpc-volt-geforce-rtx-3080-gl_webp.jpg?2%27)"
                 alt=""
@@ -372,7 +372,7 @@ const Lumen = () => {
                 </li>
               </ul>
             </div>
-            <div className="blockWithImage4">
+            <div className="blockWithImage4Lumen">
               <img
                 src="https://hyperpc.ru/images/product/lumen/landing_v4/hyperpc-shield-separate-block-gr.jpg"
                 alt=""
