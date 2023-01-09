@@ -510,17 +510,17 @@ const Lumen = () => {
               </a>
 
               <h2>
-                <a href="">NANO X</a>
+                <a href="nanoX">NANO X</a>
               </h2>
               <p>Компактный игровой компьютер</p>
               <p>От 179 900 ₽ | 6 686 ₽/мес</p>
               <button>
-                <a href="">ПОДРОБНЕЕ</a>
+                <a href="nanoX">ПОДРОБНЕЕ</a>
               </button>
             </div>
 
             <div>
-              <a href="">
+              <a href="dynamic">
                 <img
                   src="https://hyperpc.ru/images/product/dynamic/update_landing/pc/black-rgb/teaser/update/hyperpc-dynamic-black-rgb-alt.jpg"
                   alt=""
@@ -528,12 +528,12 @@ const Lumen = () => {
               </a>
 
               <h2>
-                <a href="">DYNAMIC</a>
+                <a href="dynamic">DYNAMIC</a>
               </h2>
               <p>Мощный игровой компьютер</p>
               <p>От 385 800 ₽ | 14 338 ₽/мес</p>
               <button>
-                <a href="">ПОДРОБНЕЕ</a>
+                <a href="dynamic">ПОДРОБНЕЕ</a>
               </button>
             </div>
 
