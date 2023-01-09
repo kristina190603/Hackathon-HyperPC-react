@@ -1,0 +1,251 @@
+/* style for */
+
+.block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+.txt-white {
+  font-weight: bold;
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 5%;
+}
+.txt-grey {
+  color: #ccc;
+  font-size: 1.125rem;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* first block */
+.first_block {
+  background: url(https://hyperpc.ru/images/support/service-center/hyperpc-service-center-desktop-banner_webp.jpg?5)
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.first_txt {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+}
+
+.first_txt > span:nth-of-type(1) {
+  font-size: 3.75rem;
+  color: white;
+  font-weight: bold;
+  margin-top: 10%;
+}
+.first_txt > span:nth-of-type(2) {
+  font-size: 3.75rem;
+  color: white;
+  font-weight: bold;
+}
+.first_txt > span:nth-of-type(3) {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+.first_txt > button {
+  background-color: #f51616;
+  color: #fff;
+  border: 1px solid transparent;
+  width: 20%;
+  padding: 0.7%;
+}
+/* second block */
+.second-block {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.left-side-second-block {
+  width: 40%;
+}
+.right-side-second-block {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.right-side-second-block > span:nth-of-type(1) {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.right-side-second-block > span:nth-of-type(2) {
+  color: #ccc;
+  font-size: 1.125rem;
+  margin-top: 20px;
+}
+.parts {
+  display: flex;
+  flex-direction: column;
+}
+.parts > span:nth-of-type(1) {
+  color: #ccc;
+  font-size: 0.875rem;
+}
+.parts > span:nth-of-type(2) {
+  font-size: 2.625rem;
+  color: #fff;
+}
+.parts > span:nth-of-type(3) {
+  color: #ccc;
+  font-size: 0.875rem;
+}
+.right-side-second-block > div {
+  display: flex;
+  flex-direction: row;
+}
+/* third block */
+.left-side {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.btn2 {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 0 30px;
+  font-size: 0.875rem;
+  line-height: 38px;
+  width: 50%;
+}
+/* forth block */
+.forth-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #171717;
+}
+.btn3 {
+  background-color: #f51616;
+  color: #fff;
+  border: 1px solid transparent;
+  width: 20%;
+  padding: 0.7%;
+}
+.circle-features {
+  border-radius: 50%;
+  box-shadow: 0 0 1px 2px #f51616;
+  background-color: #333;
+  /* width: ;
+  height: ; */
+  margin-top: 10%;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons {
+  /* fill: gray; */
+  color: #fff !important;
+}
+.each-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 16%;
+}
+
+hr {
+  border: 1px solid grey;
+}
+/* fifth block */
+.txt-center {
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+  font-weight: bold;
+}
+
+.txt-center-center {
+  text-align: center;
+  font-size: 2vmin;
+}
+
+.txt-only-center {
+  text-align: center;
+}
+
+.square {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+  font-size: 100%;
+  line-height: 1.5;
+  color: #ccc;
+  margin: 20px;
+  border: 1px solid grey;
+  transition: 150ms;
+}
+
+.square:hover {
+  scale: 1.05;
+}
+
+.square-parts {
+  background: #111;
+  border: 1px solid #2a2a2a;
+  transition: 0.3s ease;
+  fill: #444;
+
+  /* padding: 100%; */
+}
+a {
+  text-align: center;
+}
+
+/* seventh block */
+
+.txt-video {
+  padding: 2%;
+  background-color: #444;
+  width: 30%;
+  color: grey;
+  text-align: center;
+}
+.youtube-icon:hover {
+  color: red;
+}
+
+.square-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 10%;
+}
+
+.seventh_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}

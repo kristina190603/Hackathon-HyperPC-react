@@ -13,6 +13,7 @@ import EditModelPage from "../pages/EditModelPage";
 import HomePage from "../pages/HomePage";
 import ModelDetailsPage from "../pages/ModelDetailsPage";
 import ModelsPage from "../pages/ModelsPage";
+import ServiceModal from "../pages/service/ServiceModal";
 import ServicesPage from "../pages/ServicesPage";
 
 const MainRoutes = () => {
@@ -59,14 +60,18 @@ const MainRoutes = () => {
       id: 8,
     },
     {
+      link: "/modal",
+      element: <ServiceModal />,
+      id: 9,
+    },
       link: "/lumen",
       element: <Lumen />,
-      id: 9,
+      id: 10,
     },
     {
       link: "/nanoX",
       element: <NanoX />,
-      id: 10,
+      id: 11,
     },
   ];
 
