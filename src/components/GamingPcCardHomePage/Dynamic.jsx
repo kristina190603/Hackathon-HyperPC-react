@@ -45,7 +45,6 @@ const Dynamic = () => {
             />
           </div>
 
-
           <div className="d-flexBlock">
             <div>
               <img
@@ -55,14 +54,16 @@ const Dynamic = () => {
               />
             </div>
             <div className="lumenTextBlock3">
-              <h5>Шасси LUMEN</h5>
-              <h2>Высшее качество</h2>
+              <h5>Практичное и желаемое</h5>
+              <h2>То, что надо</h2>
               <p>
-                Корпус LUMEN полностью изготовлен из алюминиево-магниевого
-                сплава. Дизайн сочетается с ощущением простоты, обтекаемости и
-                прочности. Благодаря использованию алюминия с инновационной
-                структурой, он прекрасно сочетает в себе прочную конструкцию и
-                приятный внешний вид.
+                HYPERPC DYNAMIC — это не просто вдохновение на победы, это уже
+                залог победы. Идеальный внешний корпус — в нём нет ничего
+                лишнего, ни одной ненужной детали. Прозрачная боковая стенка из
+                закалённого стекла показывает все важные внутренние элементы
+                машины, не упуская ничего из виду. Водяная система охлаждения не
+                допустит перегрева комплектующих в самых «прожорливых» играх и
+                приложениях. Это и есть настоящее воплощение Hi-End-компьютера.
               </p>
 
               <div className="blocksImageLumen3">
@@ -94,100 +95,122 @@ const Dynamic = () => {
                   alt=""
                 />
               </div>
-
-    
             </div>
           </div>
 
+          <div className="backgroundTExt2">
+            <div className="secondBlockText">
+              <h2>Апгрейд</h2>
+              <h3>Возможности модернизации</h3>
+              <p>
+                Поддерживайте свой NANO X в актуальном состоянии с помощью
+                апгрейда компонентов. Компьютер NANO X предлагает достаточно
+                места для расширения конфигурации, позволяя заменить видеокарту,
+                связку процессора и материской платы или установить
+                дополнительные накопители, при этом продуманная конструкция
+                корпуса дает возможность аккуратно проложить все необходимые
+                кабели.
+              </p>
+            </div>
 
-          <div className="informationForLumen">
+            <div className="blockIcons">
+              <div>
+                <img
+                  src="https://hyperpc.ru/images/product/nano/_temp/logo/nvidia_rtx_logo_alt.png?6"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  src="https://hyperpc.ru/images/product/nano/_temp/logo/intel-logo-alt.png?1"
+                  alt=""
+                />
+              </div>
+            </div>
+            <img
+              className="backImageCover"
+              src="https://hyperpc.ru/images/product/dynamic/main_content/block-performance/hpc-dynamic-landing-page-performance-block-alt-1.png"
+              alt=""
+            />
+            <div className="charac3">
+              <div>
+                <p>
+                  Частота <br />
+                  процессора до
+                </p>
+                <p className="p2">5.8 ГГц</p>
+              </div>
+
+              <div>
+                <p>
+                  Объем <br />
+                  памяти до
+                </p>
+                <p className="p2">64 ГБ</p>
+              </div>
+
+              <div>
+                <p>
+                  Чтения <br />
+                  SSD-накопителей до
+                </p>
+                <p className="p2">7 ГБ/с</p>
+              </div>
+
+              <div>
+                <p>
+                  Объем <br />
+                  хранения до
+                </p>
+                <p className="p2">32 ТБ</p>
+              </div>
+            </div>
+            <img
+              className="backImage1"
+              src="https://hyperpc.ru/images/product/dynamic/main_content/block-performance/hpc-dynamic-landing-page-performance-block-alt.jpg?1"
+              alt=""
+            />
+          </div>
+
+          <div className="informationForDynamicFirst">
             <div className="blockWidth">
               <div className="BlockTextLumen">
-                <h2>
-                  УСКОРЬТЕ ПУТЬ ОТ <br /> ИДЕИ К ВОПЛОЩЕНИЮ
-                </h2>
+                <h2>GEFORCE® RTX</h2>
                 <h3>ИЗОБРЕТАЯ ГРАФИКУ ЗАНОВО</h3>
                 <p>
-                  Графические карты NVIDIA ускоряют рабочий процесс благодаря
-                  невероятному росту производительности, позволяя выполнять
-                  задачи до 12 раз быстрее. Сокращение времени ожидания означает
-                  больше задач и возможностей, а также рекордное ускорение
-                  рабочего процесса. Добро пожаловать в NVIDIA Studio, ваше
-                  новое творческое пространство.
+                  NVIDIA® GeForce® RTX предлагает непревзойденный игровой опыт
+                  на ПК. Созданные на новой архитектуре NVIDIA AMPERE™ GPU и
+                  революционной платформе RTX, видеокарты RTX совмещают в себе
+                  технологии трассировки лучей в реальном времени, искуственный
+                  интеллект и программируемые шейдеры. Это абсолютно новый
+                  игровой опыт.
                 </p>
-                <ul className="ulList">
-                  <li>
-                    <i>
-                      <img
-                        width="50"
-                        height="40"
-                        src="https://hyperpc.ru/images/product/nano/_temp/logo/ai.png"
-                        alt=""
-                      />
-                    </i>
-                    <div>
-                      Добавляйте впечатляющие эффекты в Adobe Premiere Pro без
-                      снижения производительности при рендеринге
-                    </div>
-                  </li>
-                  <div className="divLine"></div>
-
-                  <li>
-                    <i>
-                      <img
-                        width="50"
-                        height="40"
-                        src="https://hyperpc.ru/images/product/nano/_temp/logo/8k-video.png"
-                        alt=""
-                      />
-                    </i>
-                    <div>
-                      Работайте с RED RAW-файлами в разрешении 8K без
-                      предварительного кэширования или создания прокси
-                    </div>
-                  </li>
-
-                  <li>
-                    <i>
-                      <img
-                        width="50"
-                        height="40"
-                        src="https://hyperpc.ru/images/product/nano/_temp/logo/ai.png"
-                        alt=""
-                      />
-                    </i>
-                    <div>
-                      Ускорьте цветокоррекцию и редактирование благодаря новым
-                      производительным инструментам на базе ИИ в DaVinci Resolve
-                      от Blackmagic Design
-                    </div>
-                  </li>
-                  <div className="divLine"></div>
-                </ul>
               </div>
-              <div className="blockWithImage">
+              <div className="blockWithImageDynamic">
                 <img
-                  src="https://hyperpc.ru/images/product/nano-x/geforce-rtx-3080-alt.jpg"
+                  src="https://hyperpc.ru/images/product/cyber/performance/nvidia-rtx-3080-block_webp.jpg"
                   alt=""
                 />
               </div>
             </div>
           </div>
+
           <div className="divLine"></div>
 
-          <div className="informationForLumen2">
+          <div className="informationForDynamic2">
             <div className="blockWidth2">
               <div className="BlockTextLumen2">
                 <h2>Процессор</h2>
-                <h3>Больше ядер, больше вычислительной мощи</h3>
+                <h3>
+                  Больше ядер, <br /> больше вычислительной мощи
+                </h3>
                 <p>
-                  Intel Core i7-12700(F) – 12-ядерный процессор, признанный
-                  одним из лучших игровым процессором, а его базовая частота 2,1
-                  ГГц удовлетворит большинство пользователей, требующих высокой
-                  скорости. Являясь вычислительным центром HYPERPC NANO X, Intel
-                  Core i7-12700(F) также имеет технологию Intel Turbo Boost,
-                  которая позволяет увеличивать частоту до 4.9 ГГц, что придется
-                  по вкусу всем геймерам, ищущим высокой производительности.
+                  HYPERPC DYNAMIC создан на основе Intel® Core™ i9-13900K - это
+                  24-ядерный процессор, признанный лучшим игровым CPU, он
+                  удовлетворит большинство пользователей, требующих высокой
+                  скорости. А технология Intel Turbo Boost позволяет процессору
+                  увеличивать частоту до 5,8 ГГц, что придется по вкусу всем
+                  геймерам, ищущим экстремальной производительности.
                 </p>
               </div>
               <div className="blockWithImage2">
@@ -196,14 +219,14 @@ const Dynamic = () => {
                     <p>
                       Базовая <br /> тактовая частота
                     </p>
-                    <p className="p2">2.1 ГГц</p>
+                    <p className="p2">3.0 ГГц</p>
                   </div>
 
                   <div>
                     <p>
                       Ускорение <br /> Turbo Boost до
                     </p>
-                    <p className="p2">4.9 ГГц</p>
+                    <p className="p2">5.8 ГГц</p>
                   </div>
                 </div>
                 <img
@@ -215,26 +238,27 @@ const Dynamic = () => {
           </div>
           <div className="divLine"></div>
 
-          <div className="informationForLumen2">
+          <div className="informationForDynamic2">
             <div className="blockWidth2">
               <div className="BlockTextLumen2">
                 <h2>Память и накопители</h2>
                 <h3>Запредельная скорость обработки данных</h3>
                 <p>
-                  Сверхбыстрые модули памяти Kingston Fury Beast DDR5 объемом до
-                  64 ГБ обеспечат вам запредельную скорость работы. SSD идеально
-                  подойдет для интенсивных нагрузок и надежно сохранит любые
-                  данные, а повышенная пропускная способность поможет решить
-                  самые сложные задачи в кратчайший срок.
+                  Сверхбыстрые модули памяти общим объемом до 64 ГБ обеспечат
+                  вам запредельную скорость работы. SSD идеально подойдет для
+                  интенсивных нагрузок и надежно сохранит любые данные, а
+                  повышенная пропускная способность поможет решить самые сложные
+                  задачи в кратчайший срок.
                 </p>
               </div>
               <div className="blockWithImage2">
                 <div className="charac2">
                   <div>
                     <p>
-                      Базовая <br /> тактовая частота
+                      Объем <br />
+                      памяти до
                     </p>
-                    <p className="p2">3.6 ГГц</p>
+                    <p className="p2">64 ГБ</p>
                   </div>
 
                   <div>
@@ -258,7 +282,7 @@ const Dynamic = () => {
                       Объем <br />
                       хранения до
                     </p>
-                    <p className="p2">20 ТБ</p>
+                    <p className="p2">40 ТБ</p>
                   </div>
                 </div>
               </div>
@@ -266,30 +290,23 @@ const Dynamic = () => {
           </div>
           <div className="divLine"></div>
 
-          <div className="informationForLumen3">
+          <div className="informationForDynamic3">
             <div className="blockWidth">
               <div className="BlockTextLumen3">
                 <h2>Система охлаждения</h2>
                 <h3>Хладнокровие в любой ситуации</h3>
                 <p>
-                  Хорошее охлаждение – залог стабильной работы компьютера во
-                  время жарких виртуальных сражений. Система охлаждения HYPERPC
-                  WaterCooling RGB 240/360 привносит эффективность и тихую
-                  работу компьютера.
+                Хорошее охлаждение – залог стабильной работы компьютера во время жарких виртуальных сражений. Система охлаждения HYPERPC WaterCooling RGB 360 привносит эффективность и тихую работу компьютера.
                 </p>
                 <p>
-                  Выполненный из меди, массивный теплосъемник позволяет наиболее
-                  быстро отводить тепло с поверхности центрального процессора.
-                  Благодаря использованию мощной помпы, встроенной в блок с
-                  медным теплосъемником, охлаждающая жидкость циркулирует
-                  быстро, и это способствует эффективному охлаждению вашего CPU.
-                  Высокое качество шлангов и всех соединений исключает протечку
-                  или испарение хладагента.
+                Выполненный из меди, массивный теплосъемник позволяет наиболее быстро отводить тепло с поверхности центрального процессора. Благодаря использованию мощной помпы, встроенной в блок с медным теплосъемником, охлаждающая жидкость циркулирует быстро, и это способствует эффективному охлаждению вашего CPU. Высокое качество шлангов и всех соединений исключает протечку или испарение хладагента.
+
+
                 </p>
               </div>
               <div className="blockWithImage1">
                 <img
-                  src="https://hyperpc.ru/images/catalog/hardware/cooling/hyperpc/hyperpc_watercooling_360_rgb/hpc-360-mm-wc-radiator-fans.jpg"
+                  src="https://hyperpc.ru/images/catalog/hardware/cooling/hyperpc/hyperpc_watercooling_360_rgb/hyperpc-watercooling-360-rgb-new-black.jpg"
                   alt=""
                 />
               </div>
@@ -297,7 +314,28 @@ const Dynamic = () => {
           </div>
           <div className="divLine"></div>
 
-          <div className="informationForLumen4">
+          <div className="informationForDynamic3">
+            <div className="blockWidth">
+              <div className="BlockTextLumen3">
+                <h2>Апгрейд</h2>
+                <h3>Интерфейсы и возможности <br /> модернизации</h3>
+                <p>
+                HYPERPC DYNAMIC располагает множеством портов для подключения различных периферийных и других внешних устройств. Компьютер имеет несколько вариантов размеров, что позволяет легко расширить и усовершенствовать конфигурацию, а продуманная конструкция корпуса дает возможность провести аккуратный и качественный кабель-менеджмент.
+                </p>
+              
+              </div>
+              <div className="blockWithImageUp">
+                <img
+                  src="https://hyperpc.ru/images/product/dynamic/update_landing/main/hyperpc-dynamic-standard-sp-lp_webp.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div className="divLine"></div>
+
+
+          <div className="informationForDynamic4">
             <div className="blockWidth">
               <div className="BlockTextLumen3">
                 <h2>Сервисное обслуживание</h2>
@@ -391,57 +429,13 @@ const Dynamic = () => {
               </div>
               <div className="blockWithImage4">
                 <img
-                  src="https://hyperpc.ru/images/product/lumen/landing_v4/hyperpc-shield-separate-block-gr.jpg"
+                  src="https://hyperpc.ru/images/product/lumen/landing_v4/hyperpc-shield-separate-block-bk.jpg"
                   alt=""
                 />
               </div>
             </div>
           </div>
           <div className="divLine"></div>
-
-          <div className="backgroundTExt2">
-            <div className="secondBlockText">
-              <h2>Апгрейд</h2>
-              <h3>Возможности модернизации</h3>
-              <p>
-                Поддерживайте свой NANO X в актуальном состоянии с помощью
-                апгрейда компонентов. Компьютер NANO X предлагает достаточно
-                места для расширения конфигурации, позволяя заменить видеокарту,
-                связку процессора и материской платы или установить
-                дополнительные накопители, при этом продуманная конструкция
-                корпуса дает возможность аккуратно проложить все необходимые
-                кабели.
-              </p>
-            </div>
-
-            <div className="blocksParams">
-              <div>
-                <p>Поддержка 2.5"</p>
-                <p className="p2">2 SSD</p>
-              </div>
-
-              <div>
-                <p>Поддержка до</p>
-                <p className="p2">12 USB</p>
-              </div>
-
-              <div>
-                <p>Вес до</p>
-                <p className="p2">20 кг</p>
-              </div>
-
-              <div>
-                <p>Объем</p>
-                <p className="p2">14,6 Л</p>
-              </div>
-            </div>
-
-            <img
-              className="backImage1"
-              src="https://hyperpc.ru/images/product/nano-x/hpc-nano-x-spec-block_webp.jpg"
-              alt=""
-            />
-          </div>
 
           <div className="backLinks">
             <nav className="navLinks2">
@@ -463,7 +457,7 @@ const Dynamic = () => {
               </div>
 
               <div>
-                <a href="">
+                <a href="nanoX">
                   <img
                     src="https://hyperpc.ru/images/product/gaming-pc/content/hyperpc-nano-x-silver-us.jpg"
                     alt=""
@@ -476,12 +470,12 @@ const Dynamic = () => {
                 <p>Компактный игровой компьютер</p>
                 <p>От 179 900 ₽ | 6 686 ₽/мес</p>
                 <button>
-                  <a href="">ПОДРОБНЕЕ</a>
+                  <a href="nanoX">ПОДРОБНЕЕ</a>
                 </button>
               </div>
 
               <div>
-                <a href="">
+                <a href="dynamic">
                   <img
                     src="https://hyperpc.ru/images/product/dynamic/update_landing/pc/black-rgb/teaser/update/hyperpc-dynamic-black-rgb-alt.jpg"
                     alt=""
@@ -535,8 +529,14 @@ const Dynamic = () => {
             </nav>
             <div className="divLine"></div>
           </div>
-          <Footer />
+
+
+
+
         </div>
+
+        
+          <Footer />
       </div>
     </>
   );

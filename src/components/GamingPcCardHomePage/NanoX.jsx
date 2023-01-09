@@ -121,7 +121,7 @@ const NanoX = () => {
             />
           </div>
 
-          <div className="informationForLumen">
+          <div className="informationForNanoX">
             <div className="blockWidth">
               <div className="BlockTextLumen">
                 <h2>
@@ -398,7 +398,7 @@ const NanoX = () => {
                 </li>
               </ul>
             </div>
-            <div className="blockWithImage4">
+            <div className="blockWithImage4NanoX">
               <img
                 src="https://hyperpc.ru/images/product/lumen/landing_v4/hyperpc-shield-separate-block-gr.jpg"
                 alt=""
@@ -442,7 +442,7 @@ const NanoX = () => {
             </div>
            
             <img
-              className="backImage1"
+              className="backImage1NanoX"
               src="https://hyperpc.ru/images/product/nano-x/hpc-nano-x-spec-block_webp.jpg"
               alt=""
             />
@@ -486,7 +486,7 @@ const NanoX = () => {
               </div>
 
               <div>
-                <a href="">
+                <a href="dynamic">
                   <img
                     src="https://hyperpc.ru/images/product/dynamic/update_landing/pc/black-rgb/teaser/update/hyperpc-dynamic-black-rgb-alt.jpg"
                     alt=""
@@ -494,12 +494,12 @@ const NanoX = () => {
                 </a>
 
                 <h2>
-                  <a href="">DYNAMIC</a>
+                  <a href="dynamic">DYNAMIC</a>
                 </h2>
                 <p>Мощный игровой компьютер</p>
                 <p>От 385 800 ₽ | 14 338 ₽/мес</p>
                 <button>
-                  <a href="">ПОДРОБНЕЕ</a>
+                  <a href="dynamic">ПОДРОБНЕЕ</a>
                 </button>
               </div>
 

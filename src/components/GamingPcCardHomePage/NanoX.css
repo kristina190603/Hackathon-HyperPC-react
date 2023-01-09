@@ -165,10 +165,13 @@ body{
   width: 100%;
   margin-left: 1px;
 }
-
-.informationForLumen {
+.backImage1NanoX{
+  width: 50%;
+  margin-left: 25%;
+}
+.informationForNanoX {
   background-color: #111;
-  height: 75vh;
+  height: 75%;
   display: flex;
 }
 .blockWidth {
@@ -281,8 +284,9 @@ body{
   width: 50%;
   font-size: 17px;
 }
-.blockWithImage4 img {
+.blockWithImage4NanoX img {
   width: 50vw;
+  margin-top: 5%;
 }
 .informationForLumen4 {
   background-color: #111;

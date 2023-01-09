@@ -157,7 +157,7 @@ body{
   width: 130%;
   margin-left: -15%;
 }
-.informationForLumen {
+.informationForLumenFirst {
   background-color: #111;
   height: 50vh;
   display: flex;
@@ -166,9 +166,9 @@ body{
   display: flex;
   /* width: 50%; */
 }
-.blockWithImage img {
+.blockWithImageLumen img {
   width: 51vw;
-  margin-left: -15%;
+  margin-left: 60%;
 }
 .lineLI2 {
   list-style-type: none;
@@ -251,7 +251,7 @@ body{
 }
 .informationForLumen3 {
   background-color: #111;
-  height: 50vh;
+  height: 60vh;
   display: flex;
 }
 .BlockTextLumen3 {
@@ -269,8 +269,9 @@ body{
   width: 50%;
   font-size: 17px;
 }
-.blockWithImage4 img {
+.blockWithImage4Lumen img {
   width: 50vw;
+  margin-top: 5%;
 }
 .informationForLumen4{
   background-color: #111;
