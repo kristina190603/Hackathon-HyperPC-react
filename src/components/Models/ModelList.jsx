@@ -10,7 +10,7 @@ const ModelList = () => {
 
   const [page, setPage] = useState(1);
 
-  const itemsPerPage = 6;
+  const itemsPerPage =12;
   const count = Math.ceil(models.length / itemsPerPage);
 
   const handleChange = (e, p) => {

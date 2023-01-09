@@ -5,7 +5,7 @@ import ModelList from "../Models/ModelList";
 const ModelsPage = () => {
   return (
     <Box>
-      Models Page
+      <h2 style={{color: "#fff", textAlign: "center", marginTop: "2%"}}>MODELS</h2>
       <Grid>
         <ModelList />
       </Grid>

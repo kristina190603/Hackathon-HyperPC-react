@@ -36,7 +36,6 @@ const EditModel = () => {
           variant="filled"
           name="image"
           />
-          console.log(image);
       <TextField className="TextFieldChangeCreate"
         value={model.name || ""}
         onChange={handleInput}

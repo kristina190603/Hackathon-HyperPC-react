@@ -29,7 +29,7 @@ const GamingPC = () => {
           </div>
 
           <div>
-            <a href="">
+            <a href="nanoX">
               <img
                 src="https://hyperpc.ru/images/product/gaming-pc/content/hyperpc-nano-x-silver-us.jpg"
                 alt=""
@@ -37,11 +37,11 @@ const GamingPC = () => {
             </a>
 
             <h2>
-              <a href="">NANO X</a>
+              <a href="nanoX">NANO X</a>
             </h2>
             <p>Компактный игровой компьютер</p>
             <p>От 179 900 ₽ | 6 686 ₽/мес</p>
-            <button><a href="">ПОДРОБНЕЕ</a></button>
+            <button><a href="nanoX">ПОДРОБНЕЕ</a></button>
           </div>
 
           <div>

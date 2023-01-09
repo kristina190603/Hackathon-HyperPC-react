@@ -51,6 +51,9 @@ a:-webkit-any-link{
   width: 130%;
   margin-left: -15%;
 }
+.css-wjh20t-MuiPagination-ul{
+  background-color: white !important;
+}
 .carouselPar1{
   position: absolute;
   color: white;
@@ -83,6 +86,7 @@ a:-webkit-any-link{
   height: 5vh;
 }
 .boxTextFieldCreate{
+  margin-top: 5%;
   display: flex;
   width: 50%;
 }

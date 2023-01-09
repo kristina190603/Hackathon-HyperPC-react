@@ -1,36 +1,116 @@
 {
   "models": [
     {
-      "image": "https://media.gettyimages.com/id/103201937/photo/sunset-at-2nd-hoogly-bridge.jpg?s=612x612&w=gi&k=20&c=vk1MpW3sw8DQuobfz5JLBHvlbOTVVVQZ5tf5MihM1aM=",
-      "name": "sklf",
-      "price": "kfdlgm",
-      "info": "fkldkfg",
-      "type": "kmflk",
+      "image": "https://hyperpc.ru/cache/hp_product_hyperpc_lumen_2214/hpc-lumen-standard-cybersport-vinyl-pc-teaser-450x450.jpg",
+      "name": "HYPERPC LUMEN",
+      "price": "153000 ",
+      "info": "Идеальный игровой компьютер",
+      "type": "GAMING PC",
       "id": 1
     },
     {
-      "image": "ва",
-      "name": "лвьа",
-      "price": "пт",
-      "info": "пт ",
-      "type": "бьпбь",
+      "image": "https://hyperpc.ru/cache/hp_product_hyperpc_lumen_2214/hyperpc-lumen-teaser-450x450.jpg",
+      "name": "HYPERPC LUMEN",
+      "price": "179900",
+      "info": "Компактный игровой компьютер",
+      "type": "GAMING PC",
+      "id": 2
+    },
+    {
+      "image": "https://hyperpc.ru/cache/hp_product_hyperpc_lumen_2214/hpc-lumen-standard-cs-go-beast-vinyl-pc-teaser-450x450.jpg",
+      "name": "HYPERPC LUMEN",
+      "price": "385800",
+      "info": "Мощный игровой компьютер",
+      "type": "GAMING PC",
       "id": 3
     },
     {
-      "image": "https://hyperpc.ru/images/content/choice-model-pc/hyperpc-pro-dual-alt.jpg",
-      "name": "gaming pc",
-      "price": "2000$",
-      "info": "inform",
-      "type": "pc",
-      "id": 4
+      "image": "https://hyperpc.ru/cache/hp_product_hyperpc_lumen_plus_2215/hyperpc-lumen-plus-black-alt-upd-1-450x450.jpg",
+      "name": "HYPERPC LUMEN MAX",
+      "price": "299000",
+      "info": "Современный игровой компьютер",
+      "type": "GAMING PC",
+      "id": 5
     },
     {
-      "image": "https://hyperpc.ru/images/content/choice-model-pc/hyperpc-pro-dual-alt.jpg",
-      "name": "gaming pd",
-      "price": "200",
-      "info": "pc",
-      "type": "pc",
-      "id": 5
+      "image": "https://hyperpc.ru/cache/hp_product_hyperpc_lumen_plus_2215/hyperpc-lumen-plus-black-alt-upd-1-450x450.jpg",
+      "name": "HYPERPC LUMEN PLUS",
+      "price": "308000",
+      "info": "Самый мощный игровой компьютер",
+      "type": "GAMING PC",
+      "id": 6
+    },
+    {
+      "image": "https://hyperpc.ru/images/product/concept/genesis/pc/black/hpc-genesis-black.jpg",
+      "name": "GENESIS",
+      "price": "716600",
+      "info": "Врожденное превосходство",
+      "type": "CONCEPT PC",
+      "id": 7
+    },
+    {
+      "image": "https://hyperpc.ru/images/product/hyperdesk/main/hyperpc-desk-two-teaser.jpg",
+      "name": "HYPERDESK",
+      "price": "1001900",
+      "info": "Компьютер в столе",
+      "type": "CONCEPT PC",
+      "id": 8
+    },
+    {
+      "image": "https://hyperpc.ru/images/product/ampere/pc/hyperpc-ampere.jpg",
+      "name": "AMPERE",
+      "price": " 1314700",
+      "info": "Как никто другой",
+      "type": "CONCEPT PC",
+      "id": 9
+    },
+    {
+      "image": "https://hyperpc.ru/images/product/workstation/category_content/hyperpc-lumen-plus-platinum-silver-us.jpg",
+      "name": "LUMEN PRO",
+      "price": "163500",
+      "info": "Профессиональный компьютер для создателей контента",
+      "type": "WORK STATION",
+      "id": 10
+    },
+    {
+      "image": "https://hyperpc.ru/images/product/workstation/category_content/hyperpc-pro-g2-size-category.jpg",
+      "name": "G2 PRO",
+      "price": "150400",
+      "info": "Компактные рабочие станции для базовой визуализации и моделирования",
+      "type": "WORK STATION",
+      "id": 11
+    },
+    {
+      "image": "https://hyperpc.ru/images/product/workstation/category_content/hyperpc-pro-g4-size-category.jpg",
+      "name": "G4 PRO",
+      "price": "352700",
+      "info": "Компьютеры повышенной производительности для 3D, монтажа и анимации",
+      "type": "WORK STATION",
+      "id": 12
+    },
+    {
+      "image": "https://hyperpc.ru/images/product/workstation/category_content/hyperpc-pro-g6-us.jpg",
+      "name": "G6 PRO",
+      "price": "732800",
+      "info": "Сверхмощные станции для комплексных задач и масштабных вычислений",
+      "type": "WOKR STATION",
+      "id": 13
+    },
+    {
+      "image": "https://hyperpc.ru/cache/hp_product_hyperpc_lumen_2214/hyperpc-lumen-teaser-450x450.jpg",
+      "name": "HYPERPC LUMEN PLUS",
+      "price": "246700",
+      "info": "",
+      "type": "GAMING PC",
+      "id": 14
+    },
+    {
+      "image": "https://hyperpc.ru/cache/hp_product_hyperpc_nano_x_2229/hyperpc-nano-x-silver-450x450.jpg",
+      "name": "HYPERPC NANO X",
+      "price": "179900",
+      "info": "",
+      "type": "GAMING PC",
+      "id": 15
     }
   ]
 }

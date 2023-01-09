@@ -2,7 +2,7 @@ html {
   overflow-x: hidden;
 }
 body{
-  overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .gamingContainer {
@@ -28,8 +28,9 @@ body{
   font-size: 20px;
   margin-bottom: 1%;
 }
-
-.videoLumen{
+.nanoImg{
+    margin-left: -8%;
+} .videoLumen {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -44,7 +45,8 @@ body{
   height: 85vh;
 }
 .lumenTextBlock {
-  transform: translate(15%, 5%);
+    position: absolute;
+  transform: translate(100%, 5%);
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -93,10 +95,10 @@ body{
   width: 70%;
 }
 /* .navLinksSticky {
-  z-index: 1;
-  position: sticky;
-  top: -11%;
-} */
+    z-index: 1;
+    position: sticky;
+    top: -11%;
+  } */
 .navLinks a {
   margin-top: 20px;
   font-size: 30px;
@@ -107,15 +109,21 @@ body{
 }
 .blocksImageLumen {
   margin-bottom: 10px;
+  margin-left: -10px;
 }
 .blocksImageLumen img {
+    border: 1px solid rgba(255,255,255,.2);
+    width: 25%;
   margin-left: 10px;
 }
 .backgroundTExt {
   background: #111;
 }
+.backgroundTExt2{
+  background: black;
+}
 .secondBlockText {
-  transform: translate(45%, 30%);
+  transform: translate(45%, 35%);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -154,12 +162,13 @@ body{
   font-size: 35px !important;
 }
 .backImage {
-  width: 130%;
-  margin-left: -15%;
+  width: 100%;
+  margin-left: 1px;
 }
+
 .informationForLumen {
   background-color: #111;
-  height: 50vh;
+  height: 75vh;
   display: flex;
 }
 .blockWidth {
@@ -167,15 +176,18 @@ body{
   /* width: 50%; */
 }
 .blockWithImage img {
-  width: 51vw;
-  margin-left: -15%;
+  width: 68vw;
+  margin-top: 6%;
+  margin-left: 40%;
 }
 .lineLI2 {
   list-style-type: none;
   border-top: 10px solid #999;
 }
 .BlockTextLumen {
-  transform: translate(20vw, 15vh);
+    position: absolute;
+    width: 50%;
+  transform: translate(20vw, 5vh);
 }
 .BlockTextLumen h2 {
   color: #76b900;
@@ -272,7 +284,7 @@ body{
 .blockWithImage4 img {
   width: 50vw;
 }
-.informationForLumen4{
+.informationForLumen4 {
   background-color: #111;
   height: 80vh;
   display: flex;
@@ -281,7 +293,7 @@ body{
   margin-left: -3%;
   width: 60%;
 }
-.ulList li{
+.ulList li {
   list-style-type: none;
   color: #ccc;
   margin-top: 10px;
@@ -295,18 +307,17 @@ body{
   text-align: center;
   color: #999;
 }
-.blocksParams2{
+.blocksParams2 {
   width: 55%;
   display: flex;
   flex-wrap: wrap;
-
 }
-.blocksParams2 div{
+.blocksParams2 div {
   width: 50%;
   margin-top: 5%;
 }
 
-.backLinks{
+.backLinks {
   background-color: #111;
 }
 .navLinks2 {

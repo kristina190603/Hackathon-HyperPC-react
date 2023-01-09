@@ -17,7 +17,7 @@ const Lumen = () => {
       <div>
         <div>
           <h3 id="lumen" className="lumenH3">
-            LUMEN
+            HYPERPC LUMEN
           </h3>
           <div className="d-flexBlock">
             <div>
@@ -228,23 +228,21 @@ const Lumen = () => {
 
                 <div>
                   <p>
-                    Ускорение <br /> Turbo Boost до
+                    Чтения <br /> SSD-накопителей до
                   </p>
-                  <p className="p2">5.4 ГГц</p>
+                  <p className="p2">7 ГБ/с</p>
                 </div>
 
                 <div>
                   <p>
-                    Ускорение <br /> Turbo Boost до
+                    Частота <br /> памяти до
                   </p>
-                  <p className="p2">5.4 ГГц</p>
+                  <p className="p2">6000 МГц</p>
                 </div>
 
                 <div>
-                  <p>
-                    Ускорение <br /> Turbo Boost до
-                  </p>
-                  <p className="p2">5.4 ГГц</p>
+                  <p>Объем <br /> хранения до</p>
+                  <p className="p2">20 ТБ</p>
                 </div>
               </div>
             </div>
@@ -504,7 +502,7 @@ const Lumen = () => {
             </div>
 
             <div>
-              <a href="">
+              <a href="nanoX">
                 <img
                   src="https://hyperpc.ru/images/product/gaming-pc/content/hyperpc-nano-x-silver-us.jpg"
                   alt=""
