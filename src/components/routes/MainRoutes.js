@@ -1,6 +1,8 @@
 import React from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { useAuth } from "../contexts/authContext";
+import Lumen from "../GamingPcCardHomePage/Lumen";
+import NanoX from "../GamingPcCardHomePage/NanoX";
 import { ADMIN } from "../helpers/consts";
 import AboutUs from "../pages/AboutUs";
 import AdminPage from "../pages/AdminPage";
@@ -61,6 +63,15 @@ const MainRoutes = () => {
       link: "/modal",
       element: <ServiceModal />,
       id: 9,
+    },
+      link: "/lumen",
+      element: <Lumen />,
+      id: 10,
+    },
+    {
+      link: "/nanoX",
+      element: <NanoX />,
+      id: 11,
     },
   ];
 
