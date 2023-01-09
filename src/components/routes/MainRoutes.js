@@ -64,6 +64,7 @@ const MainRoutes = () => {
       element: <ServiceModal />,
       id: 9,
     },
+    {
       link: "/lumen",
       element: <Lumen />,
       id: 10,
