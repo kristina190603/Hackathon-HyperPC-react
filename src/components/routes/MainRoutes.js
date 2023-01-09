@@ -11,6 +11,7 @@ import EditModelPage from "../pages/EditModelPage";
 import HomePage from "../pages/HomePage";
 import ModelDetailsPage from "../pages/ModelDetailsPage";
 import ModelsPage from "../pages/ModelsPage";
+import ServiceModal from "../pages/service/ServiceModal";
 import ServicesPage from "../pages/ServicesPage";
 
 const MainRoutes = () => {
@@ -55,6 +56,11 @@ const MainRoutes = () => {
       link: "/services",
       element: <ServicesPage />,
       id: 8,
+    },
+    {
+      link: "/modal",
+      element: <ServiceModal />,
+      id: 9,
     },
   ];
 
