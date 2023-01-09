@@ -14,12 +14,13 @@ import AccountCircle from "@mui/icons-material/AccountCircle";
 import MailIcon from "@mui/icons-material/Mail";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import MoreIcon from "@mui/icons-material/MoreVert";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import ShoppingCartCheckoutIcon from "@mui/icons-material/ShoppingCartCheckout";
 import { useAuth } from "../contexts/authContext";
 import { ADMIN } from "../helpers/consts";
 import "../../../src/App.css";
 import { useCart } from "../contexts/cartContext";
+import { useModels } from "../contexts/modelsContext";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -70,14 +71,29 @@ const pages = [
 ];
 
 export default function Navbar() {
+  const [searchParams, setSearchParams] = useSearchParams();
+  const [search, setSearch] = React.useState(searchParams.get("q") || "");
+
+  const { getModels } = useModels();
+
+  React.useEffect(() => {
+    setSearchParams({
+      q: search,
+    });
+  }, [search]);
+
+  React.useEffect(() => {
+    getModels();
+  }, [searchParams]);
+
   const navigate = useNavigate();
 
   const { user, handleLogout } = useAuth();
-    const { getCart, cart } = useCart();
+  const { getCart, cart } = useCart();
 
-    React.useEffect(() => {
-      getCart();
-    }, []);
+  React.useEffect(() => {
+    getCart();
+  }, []);
 
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
@@ -219,6 +235,7 @@ export default function Navbar() {
               <SearchIcon />
             </SearchIconWrapper>
             <StyledInputBase
+              onChange={(e) => setSearch(e.target.value)}
               placeholder="Search…"
               inputProps={{ "aria-label": "search" }}
             />
@@ -255,7 +272,7 @@ export default function Navbar() {
               onClick={() => navigate("/cart")}
             >
               <Badge badgeContent={cart?.models.length} color="error">
-              <ShoppingCartCheckoutIcon />
+                <ShoppingCartCheckoutIcon />
               </Badge>
             </IconButton>
 
