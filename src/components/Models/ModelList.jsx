@@ -5,12 +5,12 @@ import { useModels } from "../contexts/modelsContext";
 import ModelCard from "./ModelCard";
 
 const ModelList = () => {
-  const { getModels, models } = useModels();
+  const { getModels, models, fetchByParams } = useModels();
   const [searchParams, setSearchParams] = useSearchParams();
 
   const [page, setPage] = useState(1);
 
-  const itemsPerPage =12;
+  const itemsPerPage = 12;
   const count = Math.ceil(models.length / itemsPerPage);
 
   const handleChange = (e, p) => {
@@ -28,35 +28,47 @@ const ModelList = () => {
   }, []);
 
   return (
-    <Grid
-      item
-      md={9}
-      sx={{ justifyContent: "center", display: "flex", flexWrap: "wrap" }}
-    >
-      <Box
-        sx={{
-          display: "flex",
-          flexWrap: "wrap",
-          minHeight: "40vh",
-          gap: "10px",
-        }}
+    <>
+      <select
+        name="filter"
+        id="filter"
+        style={{ margin: "20px" }}
+        onChange={(e) => fetchByParams("type", e.target.value)}
       >
-        {models.length > 0 ? (
-          currentData().map((item) => <ModelCard item={item} key={item.id} />)
-        ) : (
-          <>
-            <CircularProgress color="inherit" />
-          </>
-        )}
-      </Box>
-      <Pagination
-        sx={{ m: 2 }}
-        count={count}
-        page={page}
-        onChange={handleChange}
-        shape="rounded"
-      />
-    </Grid>
+        <option value="GAMING PC">GAMING PC</option>
+        <option value="CONCEPT PC">CONCEPT PC</option>
+        <option value="WORK STATION">WORK STATION</option>
+      </select>
+      <Grid
+        item
+        md={9}
+        sx={{ justifyContent: "center", display: "flex", flexWrap: "wrap" }}
+      >
+        <Box
+          sx={{
+            display: "flex",
+            flexWrap: "wrap",
+            minHeight: "40vh",
+            gap: "10px",
+          }}
+        >
+          {models.length > 0 ? (
+            currentData().map((item) => <ModelCard item={item} key={item.id} />)
+          ) : (
+            <>
+              <CircularProgress color="inherit" />
+            </>
+          )}
+        </Box>
+        <Pagination
+          sx={{ m: 2 }}
+          count={count}
+          page={page}
+          onChange={handleChange}
+          shape="rounded"
+        />
+      </Grid>
+    </>
   );
 };
 
