@@ -1,5 +1,4 @@
 /* style for */
-
 .block {
   display: flex;
   flex-direction: row;
@@ -9,7 +8,7 @@
 .txt-white {
   font-weight: bold;
   color: white;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 5%;
 }
 .txt-grey {
@@ -22,7 +21,7 @@ ul {
   list-style: none;
 }
 
-ul li::before {
+.dots li::before {
   content: "\2022";
   color: red;
   font-weight: bold;
@@ -193,7 +192,7 @@ hr {
 }
 
 .txt-only-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .square {

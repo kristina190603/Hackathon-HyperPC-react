@@ -29,7 +29,7 @@ function ModelCard({ item }) {
 
   return (
     <>
-      <Card sx={{ maxWidth: 345 }}>
+      <Card sx={{ maxWidth: "20%" }} className="cardss">
         <CardContent>
           <img
             src={item.image}
@@ -37,13 +37,28 @@ function ModelCard({ item }) {
             onClick={() => navigate(`/models/${item.id}`)}
             alt="image"
           />
-          <Typography gutterBottom variant="h5" component="div" style={{color: "#f51616",textAlign: "center", fontWeight: "600"}}>
+          <Typography
+            gutterBottom
+            variant="h5"
+            component="div"
+            style={{ color: "#f51616", textAlign: "center", fontWeight: "600" }}
+          >
             {item.name}
           </Typography>
-          <Typography gutterBottom variant="h5" component="div" style={{fontWeight: "600", textAlign: "center"}}>
+          <Typography
+            gutterBottom
+            variant="h5"
+            component="div"
+            style={{ fontWeight: "600", textAlign: "center" }}
+          >
             {item.price}₽
           </Typography>
-          <Typography gutterBottom variant="h5" component="div" style={{fontSize: "20px"}}>
+          <Typography
+            gutterBottom
+            variant="h5"
+            component="div"
+            style={{ fontSize: "20px" }}
+          >
             {item.info}
           </Typography>
           <Typography variant="body2" color="text.secondary">

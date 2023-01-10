@@ -1,0 +1,26 @@
+.hr {
+  border-top: 1px solid grey;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+#carousell {
+  width: 20%;
+}
+.txt-side {
+  width: 30%;
+  margin-left: 5%;
+}
+#send {
+  width: 50%;
+}
+
+@media all and (max-width: 425px) {
+  img {
+    display: none;
+  }
+}
+@media all and (max-width: 320px) {
+  .txt-grey {
+    font-size: smaller !important;
+  }
+}
