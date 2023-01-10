@@ -1,0 +1,17 @@
+.css-1ri6ub7-MuiPaper-root-MuiCard-root{
+    position: absolute;
+    z-index: 1;
+}
+.imgbackModelDetails {
+    position: absolute;
+    width: 100%;
+    height: 93%;
+}
+.transform{
+    transform: translate(28vw, 10vh);
+
+}
+.heightIMG{
+    width: 18vw;
+    height: 45vh !important;
+}

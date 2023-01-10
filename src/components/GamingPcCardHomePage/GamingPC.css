@@ -1,7 +1,7 @@
 html {
   overflow-x: hidden;
 }
-body{
+body {
   overflow-y: hidden;
 }
 
@@ -29,7 +29,7 @@ body{
   margin-bottom: 1%;
 }
 
-.videoLumen{
+.videoLumen {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -273,7 +273,7 @@ body{
   width: 50vw;
   margin-top: 5%;
 }
-.informationForLumen4{
+.informationForLumen4 {
   background-color: #111;
   height: 80vh;
   display: flex;
@@ -282,7 +282,7 @@ body{
   margin-left: -3%;
   width: 60%;
 }
-.ulList li{
+.ulList li {
   list-style-type: none;
   color: #ccc;
   margin-top: 10px;
@@ -296,18 +296,17 @@ body{
   text-align: center;
   color: #999;
 }
-.blocksParams2{
+.blocksParams2 {
   width: 55%;
   display: flex;
   flex-wrap: wrap;
-
 }
-.blocksParams2 div{
+.blocksParams2 div {
   width: 50%;
   margin-top: 5%;
 }
 
-.backLinks{
+.backLinks {
   background-color: #111;
 }
 .navLinks2 {
@@ -344,3 +343,101 @@ body{
 .navLinks2 a:hover {
   color: red;
 }
+/* @media all and (max-width: 2560px) {
+  .blockWithImageLumen img {
+    width: 79%;
+  }
+  .informationForLumenFirst {
+    background-color: #111;
+    display: flex;
+  }
+  .d-flexBlock {
+    height: 70vh;
+  }
+  .lumenTextBlock {
+    transform: translate(80%, 5%);
+    width: 55%;
+  }
+  .lumenTextBlock h5 {
+    font-size: 40px !important;
+  }
+  .lumenTextBlock h2 {
+    font-size: 50px !important;
+  }
+  .lumenTextBlock p {
+    font-size: 25px !important;
+  }
+  .blocksImageLumen img {
+    width: 32% !important;
+  }
+  .lumenIMG{
+    margin-left: 43%;
+    width: 120%;
+  }
+  .secondBlockText h2{
+    font-size: 40px !important;
+  }
+  .secondBlockText p{
+    font-size: 23px;
+  }
+  .blocksParams p {
+    font-size: 25px !important;
+  }
+  .BlockTextLumen{
+    transform: translate(20vw, 8vh) !important;
+  }
+  .BlockTextLumen h2{
+    font-size: 50px;
+  }
+  .BlockTextLumen h3 {
+    font-size: 40px;
+  }
+  .BlockTextLumen p{
+    font-size: 25px !important;
+  }
+  .BlockTextLumen2 {
+    transform: translate(20vw, 3vh) !important;
+  }
+  .BlockTextLumen2 h2{
+font-size: 50px;
+  }
+  .BlockTextLumen2 h3{
+font-size: 40px;
+  }
+  .BlockTextLumen2 p {
+    font-size: 23px !important;
+  }
+  .charac p {
+  font-size: 20px !important;
+  }
+  .charac2 p {
+    font-size: 20px !important;
+  }
+  .BlockTextLumen3 h2{
+  font-size: 50px;
+}
+.BlockTextLumen3 h3 {
+  font-size: 40px;
+}
+.BlockTextLumen3 p {
+  font-size: 23px !important;
+}
+.blockWithImage1 img {
+  width: 44vw !important;
+}
+.ulList{
+  font-size: 22px !important;
+}
+.paramsP {
+  font-size: 20px;
+}
+.navLinks2 p {
+  font-size: 22px !important;
+}
+.blockLinks span a {
+font-size: 25px;
+}
+.blockLinks a {
+  font-size: 20px;
+}
+} */

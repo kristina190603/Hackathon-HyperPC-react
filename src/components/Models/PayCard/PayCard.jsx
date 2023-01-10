@@ -55,7 +55,7 @@ export default function PayCard  () {
         </div>
         <div style={{display: "flex",flexDirection: "column" , alignItems: "center"}}>
           <h5 style={{color: "white"}}>Общая cумма</h5>
-          <p style={{color: "white"}}>{cart.totalPrice}</p>
+          <p style={{color: "black", backgroundColor: "white", fontSize: "35px", borderRadius: "5%"}}>{cart.totalPrice} ₽</p>
         </div>
       </form>
       <Form
