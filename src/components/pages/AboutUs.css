@@ -1,0 +1,103 @@
+/* first block */
+.firstBlock {
+  background: url(https://hyperpc.ru/images/company/about-us/hpc-about-us-banner-alt-4_webp.jpg)
+    no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100vh;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+.txt-white {
+  font-weight: bold;
+  color: white;
+  font-size: 2rem;
+}
+.txt-grey {
+  color: #ccc;
+  font-size: 1.125rem;
+  margin-top: 20px;
+}
+/* second block */
+.secondBlock {
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+}
+.txt-blue {
+  background-color: red;
+  color: white;
+  width: 105%;
+  text-align: center;
+}
+/* row block */
+.row-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.part {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+
+.part > span:nth-of-type(2) {
+  font-size: 2rem;
+  color: #fff;
+}
+.part > span:nth-of-type(3) {
+  color: #ccc;
+  font-size: 0.8rem;
+}
+
+/* txt block */
+.txt-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5%;
+  margin: 0 auto;
+}
+.bold {
+  font-weight: bold;
+  font-size: 1.4rem !important;
+}
+.txt-white-small {
+  color: white;
+  font-size: 1.125rem;
+  margin-top: 20px;
+}
+/* adaptivnaya verstka */
+@media all and (max-width: 1024px) {
+  .txt-blue {
+    display: none;
+  }
+  .second-block {
+    flex-direction: column !important;
+    /* justify-content: center; */
+    margin-left: 25%;
+  }
+}
+@media all and (max-width: 768px) {
+  .block {
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 425px) {
+  .row-block {
+    display: none;
+  }
+  .left-side-second-block {
+    display: none;
+  }
+}

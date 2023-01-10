@@ -64,7 +64,7 @@ const ServicesPage = () => {
               сложности.
             </span>
             <span className="txt-white">Что мы делаем:</span>
-            <ul className="txt-grey">
+            <ul className="txt-grey dots">
               <li>Поиск и устранение неисправностей электронных устройств;</li>
               <li>Монтаж-демонтаж SMD и BGA электронных компонентов;</li>
               <li>Ремонт комплектующих, ремонт слаботочного оборудования;</li>
