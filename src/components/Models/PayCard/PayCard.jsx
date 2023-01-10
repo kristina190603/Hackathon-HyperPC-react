@@ -8,7 +8,7 @@ import {
   formatExpirationDate,
 } from "./CardUtlis";
 import { useNavigate } from "react-router-dom";
-import "./Card.css";
+import "../PayCard/Card.css";
 import { useCart } from "../../contexts/cartContext";
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -18,7 +18,7 @@ const onSubmit = async (values) => {
   window.alert(JSON.stringify(values, 0, 2));
 };
 
-export const PayCard = () => {
+export default function PayCard  () {
   const navigate = useNavigate();
   const { cart , getCart} = useCart();
 
@@ -37,13 +37,12 @@ export const PayCard = () => {
       <form
         className="Form_card"
         style={{
-          backgroundColor: "wheat",
           display: "flex",
           margin: "100px auto",
           flexDirection: "column",
         }}
       >
-        <h3 style={{display: "flex",flexDirection: "column" , alignItems: "center"}}>Форма заказа</h3>
+        <h3 style={{display: "flex",flexDirection: "column" , alignItems: "center", color: "white"}}>Форма заказа</h3>
         <div>
           <input type="text" name="email" placeholder="Почта (Emali)" />
         </div>
@@ -55,8 +54,8 @@ export const PayCard = () => {
           <input type="text" name="adress" placeholder="Адрес" />
         </div>
         <div style={{display: "flex",flexDirection: "column" , alignItems: "center"}}>
-          <h5>Общая cумма</h5>
-          <p>{cart.totalPrice}</p>
+          <h5 style={{color: "white"}}>Общая cумма</h5>
+          <p style={{color: "white"}}>{cart.totalPrice}</p>
         </div>
       </form>
       <Form
@@ -74,7 +73,6 @@ export const PayCard = () => {
             <form
               onSubmit={handleSubmit}
               style={{
-                backgroundColor: "wheat",
                 display: "flex",
                 margin: "100px auto",
                 flexDirection: "column",
