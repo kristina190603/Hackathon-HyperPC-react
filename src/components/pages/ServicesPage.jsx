@@ -3,6 +3,7 @@ import "./ServicesPage.css";
 import CarouselForService from "./service/CarouselForService";
 import ServiceAccordion from "./service/ServiceAccordion";
 import { useNavigate } from "react-router-dom";
+import Footer from "../Footer/Footer";
 
 const ServicesPage = () => {
   const navigate = useNavigate();
@@ -562,7 +563,7 @@ const ServicesPage = () => {
           allowfullscreen
         ></iframe>
       </div>
-      {/* <video src="https://www.youtube.com/watch?v=mBOTWeCRQjg&feature=youtu.be"></video> */}
+      <Footer/>
     </div>
   );
 };

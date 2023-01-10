@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Footer/Footer";
 import ContactsCarousel from "./ContactsCarousel";
 import "./ContactsPage.css";
 
@@ -375,6 +376,7 @@ const ContactsPage = () => {
           </button>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
