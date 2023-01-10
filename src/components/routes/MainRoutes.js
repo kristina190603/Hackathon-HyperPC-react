@@ -7,7 +7,7 @@ import Lumen from "../GamingPcCardHomePage/Lumen";
 import NanoX from "../GamingPcCardHomePage/NanoX";
 import Volt from "../GamingPcCardHomePage/Volt";
 import { ADMIN } from "../helpers/consts";
-import { PayCard } from "../Models/PayCard/PayCard";
+import PayCard from "../Models/PayCard/PayCard";
 import AboutUs from "../pages/AboutUs";
 import AdminPage from "../pages/AdminPage";
 import AuthPage from "../pages/AuthPage";

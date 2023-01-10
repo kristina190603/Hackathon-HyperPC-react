@@ -17,12 +17,11 @@ const ModelDetails = () => {
   const { addModelToCart } = useCart();
   useEffect(() => {
     getOneModel(id);
-  });
-  console.log(oneModel);
+  },[]);
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
+    <Card className="transform" sx={{ maxWidth: 345 }}>
+      <CardMedia  className="heightIMG"
         sx={{ height: 140 }}
         image={oneModel.image}
         title="green iguana"
