@@ -138,7 +138,7 @@ const Lumen = () => {
           />
         </div>
 
-        <div className="informationForLumen">
+        <div className="informationForLumenFirst">
           <div className="blockWidth">
             <div className="BlockTextLumen">
               <h2>GEFORCE® RTX</h2>
@@ -151,7 +151,7 @@ const Lumen = () => {
                 интеллект и программируемые шейдеры
               </p>
             </div>
-            <div className="blockWithImage">
+            <div className="blockWithImageLumen">
               <img
                 src="https://hyperpc.ru/images/product/volt/performance/hyperpc-volt-geforce-rtx-3080-gl_webp.jpg?2%27)"
                 alt=""
@@ -372,7 +372,7 @@ const Lumen = () => {
                 </li>
               </ul>
             </div>
-            <div className="blockWithImage4">
+            <div className="blockWithImage4Lumen">
               <img
                 src="https://hyperpc.ru/images/product/lumen/landing_v4/hyperpc-shield-separate-block-gr.jpg"
                 alt=""
@@ -510,17 +510,17 @@ const Lumen = () => {
               </a>
 
               <h2>
-                <a href="">NANO X</a>
+                <a href="nanoX">NANO X</a>
               </h2>
               <p>Компактный игровой компьютер</p>
               <p>От 179 900 ₽ | 6 686 ₽/мес</p>
               <button>
-                <a href="">ПОДРОБНЕЕ</a>
+                <a href="nanoX">ПОДРОБНЕЕ</a>
               </button>
             </div>
 
             <div>
-              <a href="">
+              <a href="dynamic">
                 <img
                   src="https://hyperpc.ru/images/product/dynamic/update_landing/pc/black-rgb/teaser/update/hyperpc-dynamic-black-rgb-alt.jpg"
                   alt=""
@@ -528,17 +528,17 @@ const Lumen = () => {
               </a>
 
               <h2>
-                <a href="">DYNAMIC</a>
+                <a href="dynamic">DYNAMIC</a>
               </h2>
               <p>Мощный игровой компьютер</p>
               <p>От 385 800 ₽ | 14 338 ₽/мес</p>
               <button>
-                <a href="">ПОДРОБНЕЕ</a>
+                <a href="dynamic">ПОДРОБНЕЕ</a>
               </button>
             </div>
 
             <div>
-              <a href="">
+              <a href="volt">
                 <img
                   src="https://hyperpc.ru/images/product/gaming-pc/content/hyperpc-volt-silver-us.jpg"
                   alt=""
@@ -546,29 +546,29 @@ const Lumen = () => {
               </a>
 
               <h2>
-                <a href="">VOLT</a>
+                <a href="volt">VOLT</a>
               </h2>
               <p>Современный игровой компьютер</p>
               <p>От 299 000 ₽ | 11 112 ₽/мес</p>
               <button>
-                <a href="">ПОДРОБНЕЕ</a>
+                <a href="volt">ПОДРОБНЕЕ</a>
               </button>
             </div>
 
             <div>
-              <a href="#cyber">
+              <a href="cyber">
                 <img
                   src="https://hyperpc.ru/images/product/gaming-pc/content/hyperpc-cyber-standard-black-us.jpg"
                   alt=""
                 />
               </a>
               <h2>
-                <a href="#cyber">CYBER</a>
+                <a href="cyber">CYBER</a>
               </h2>
               <p>Самый мощный игровой компьютер</p>
               <p>От 321 000 ₽ | 11 930 ₽/мес</p>
               <button>
-                <a href="">ПОДРОБНЕЕ</a>
+                <a href="cyber">ПОДРОБНЕЕ</a>
               </button>
             </div>
           </nav>

@@ -1,8 +1,11 @@
 import React from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { useAuth } from "../contexts/authContext";
+import Cyber from "../GamingPcCardHomePage/Cyber";
+import Dynamic from "../GamingPcCardHomePage/Dynamic";
 import Lumen from "../GamingPcCardHomePage/Lumen";
 import NanoX from "../GamingPcCardHomePage/NanoX";
+import Volt from "../GamingPcCardHomePage/Volt";
 import { ADMIN } from "../helpers/consts";
 import AboutUs from "../pages/AboutUs";
 import AdminPage from "../pages/AdminPage";
@@ -73,6 +76,21 @@ const MainRoutes = () => {
       link: "/nanoX",
       element: <NanoX />,
       id: 11,
+    },
+    {
+      link: "/dynamic",
+      element: <Dynamic />,
+      id: 11,
+    },
+    {
+      link: "/volt",
+      element: <Volt />,
+      id: 12,
+    },
+    {
+      link: "/cyber",
+      element: <Cyber />,
+      id: 13,
     },
   ];
 

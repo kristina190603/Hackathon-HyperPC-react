@@ -28,14 +28,17 @@ body{
   font-size: 20px;
   margin-bottom: 1%;
 }
-.nanoImg{
+.nanoXImg{
+
+  margin-top: -8px;
     margin-left: -8%;
 } .videoLumen {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-.lumenH3 {
+.nanoXH3 {
+  background-color: #060606;
   text-align: center;
   color: white;
   font-size: 60px;
@@ -165,10 +168,13 @@ body{
   width: 100%;
   margin-left: 1px;
 }
-
-.informationForLumen {
+.backImage1NanoX{
+  width: 50%;
+  margin-left: 25%;
+}
+.informationForNanoX {
   background-color: #111;
-  height: 75vh;
+  height: 75%;
   display: flex;
 }
 .blockWidth {
@@ -281,8 +287,9 @@ body{
   width: 50%;
   font-size: 17px;
 }
-.blockWithImage4 img {
+.blockWithImage4NanoX img {
   width: 50vw;
+  margin-top: 5%;
 }
 .informationForLumen4 {
   background-color: #111;
