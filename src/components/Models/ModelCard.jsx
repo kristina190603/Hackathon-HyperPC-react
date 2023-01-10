@@ -28,70 +28,68 @@ function ModelCard({ item }) {
   } = useAuth();
 
   return (
-    <>
-      <Card sx={{ maxWidth: "20%" }} className="cardss">
-        <CardContent>
-          <img
-            src={item.image}
-            width="100%"
-            onClick={() => navigate(`/models/${item.id}`)}
-            alt="image"
-          />
-          <Typography
-            gutterBottom
-            variant="h5"
-            component="div"
-            style={{ color: "#f51616", textAlign: "center", fontWeight: "600" }}
-          >
-            {item.name}
-          </Typography>
-          <Typography
-            gutterBottom
-            variant="h5"
-            component="div"
-            style={{ fontWeight: "600", textAlign: "center" }}
-          >
-            {item.price}₽
-          </Typography>
-          <Typography
-            gutterBottom
-            variant="h5"
-            component="div"
-            style={{ fontSize: "20px" }}
-          >
-            {item.info}
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            {item.type}
-          </Typography>
-        </CardContent>
+    <Card sx={{ maxWidth: "320px" }} className="cardss">
+      <CardContent>
+        <img
+          src={item.image}
+          width="100%"
+          onClick={() => navigate(`/models/${item.id}`)}
+          alt="image"
+        />
+        <Typography
+          gutterBottom
+          variant="h5"
+          component="div"
+          style={{ color: "#f51616", textAlign: "center", fontWeight: "600" }}
+        >
+          {item.name}
+        </Typography>
+        <Typography
+          gutterBottom
+          variant="h5"
+          component="div"
+          style={{ fontWeight: "600", textAlign: "center" }}
+        >
+          {item.price}₽
+        </Typography>
+        <Typography
+          gutterBottom
+          variant="h5"
+          component="div"
+          style={{ fontSize: "20px" }}
+        >
+          {item.info}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          {item.type}
+        </Typography>
+      </CardContent>
 
-        <CardActions>
-          {email == ADMIN ? (
-            <>
-              <Button onClick={() => deleteModel(item.id)}>Delete</Button>
-              <Button onClick={() => navigate(`/edit/${item.id}`)}>Edit</Button>
-            </>
-          ) : (
-            <IconButton onClick={() => addModelToCart(item)}>
-              {checkModelInCart(item.id) ? (
-                <>
-                  <ShoppingCartCheckoutIcon
-                    sx={{
-                      color: "brown",
-                    }}
-                  />
-                </>
-              ) : (
-                <>
-                  <ShoppingCartCheckoutIcon />
-                </>
-              )}
-            </IconButton>
-          )}
-        </CardActions>
-      </Card>
-    </>
+      <CardActions>
+        {email == ADMIN ? (
+          <>
+            <Button onClick={() => deleteModel(item.id)}>Delete</Button>
+            <Button onClick={() => navigate(`/edit/${item.id}`)}>Edit</Button>
+          </>
+        ) : (
+          <IconButton onClick={() => addModelToCart(item)}>
+            {checkModelInCart(item.id) ? (
+              <>
+                <ShoppingCartCheckoutIcon
+                  sx={{
+                    color: "brown",
+                  }}
+                />
+              </>
+            ) : (
+              <>
+                <ShoppingCartCheckoutIcon />
+              </>
+            )}
+          </IconButton>
+        )}
+      </CardActions>
+    </Card>
   );
 }
 

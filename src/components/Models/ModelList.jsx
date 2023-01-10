@@ -42,11 +42,18 @@ const ModelList = () => {
       <Grid
         item
         md={9}
-        sx={{ justifyContent: "center", display: "flex", flexWrap: "wrap" }}
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          flexDirection: "column",
+        }}
       >
         <Box
           sx={{
             display: "flex",
+            width: "80%",
+            margin: "0 auto",
+            justifyContent: "center",
             flexWrap: "wrap",
             minHeight: "40vh",
             gap: "10px",
@@ -61,7 +68,7 @@ const ModelList = () => {
           )}
         </Box>
         <Pagination
-          sx={{ m: 2 }}
+          sx={{ width: "30%", margin: "20px auto" }}
           count={count}
           page={page}
           onChange={handleChange}

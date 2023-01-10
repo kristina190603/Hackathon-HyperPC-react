@@ -8,11 +8,13 @@ import {
 } from "@mui/material";
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { useCart } from "../contexts/cartContext";
 import { useModels } from "../contexts/modelsContext";
 
 const ModelDetails = () => {
   const { id } = useParams();
   const { getOneModel, oneModel } = useModels();
+  const { addModelToCart } = useCart();
   useEffect(() => {
     getOneModel(id);
   });
@@ -40,7 +42,9 @@ const ModelDetails = () => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Add to Cart</Button>
+        <Button size="small" onClick={() => addModelToCart(oneModel)}>
+          Add to Cart
+        </Button>
       </CardActions>
     </Card>
   );
