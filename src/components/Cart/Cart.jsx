@@ -9,6 +9,7 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import { Button } from "@mui/material";
 import { useCart } from "../contexts/cartContext";
+import { useNavigate } from "react-router-dom";
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
@@ -31,6 +32,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 }));
 
 export default function Cart() {
+  const navigate = useNavigate()
   const { getCart, cart, changeModalCount, deleteCartModel } = useCart();
 
   React.useEffect(() => {
@@ -89,7 +91,7 @@ export default function Cart() {
           ))}
         </TableBody>
       </Table>
-      <Button onClick={cartCleaner}>BUY NOW FOR {cart?.totalPrice} ₽</Button>
+      <Button onClick={() => {navigate(`/cardpay`)}}>BUY NOW FOR {cart?.totalPrice} ₽</Button>
     </TableContainer>
   );
 }

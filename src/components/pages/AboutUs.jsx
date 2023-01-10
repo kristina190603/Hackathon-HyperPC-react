@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Footer/Footer";
 import "./AboutUs.css";
 import AboutUsCards from "./AboutUsCards";
 
@@ -181,6 +182,7 @@ const AboutUs = () => {
       </div>
       {/* cards block */}
       <AboutUsCards />
+      <Footer/>
     </div>
   );
 };
