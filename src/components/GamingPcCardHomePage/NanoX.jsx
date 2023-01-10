@@ -16,13 +16,13 @@ const NanoX = () => {
       <div>
         <div>
           <div>
-            <h3 id="nanoX" className="lumenH3">
+            <h3 id="nanoX" className="nanoXH3">
               HYPERPC NANO X
             </h3>
             <div className="d-flexBlock">
               <div>
                 <img
-                  className="nanoImg"
+                  className="nanoXImg"
                   src="https://hyperpc.ru/images/product/nano-x/main-content/hpc-gallery-block-alt.jpg"
                   alt="image"
                 />
@@ -504,7 +504,7 @@ const NanoX = () => {
               </div>
 
               <div>
-                <a href="">
+                <a href="volt">
                   <img
                     src="https://hyperpc.ru/images/product/gaming-pc/content/hyperpc-volt-silver-us.jpg"
                     alt=""
@@ -512,29 +512,29 @@ const NanoX = () => {
                 </a>
 
                 <h2>
-                  <a href="">VOLT</a>
+                  <a href="volt">VOLT</a>
                 </h2>
                 <p>Современный игровой компьютер</p>
                 <p>От 299 000 ₽ | 11 112 ₽/мес</p>
                 <button>
-                  <a href="">ПОДРОБНЕЕ</a>
+                  <a href="volt">ПОДРОБНЕЕ</a>
                 </button>
               </div>
 
               <div>
-                <a href="#cyber">
+                <a href="cyber">
                   <img
                     src="https://hyperpc.ru/images/product/gaming-pc/content/hyperpc-cyber-standard-black-us.jpg"
                     alt=""
                   />
                 </a>
                 <h2>
-                  <a href="#cyber">CYBER</a>
+                  <a href="cyber">CYBER</a>
                 </h2>
                 <p>Самый мощный игровой компьютер</p>
                 <p>От 321 000 ₽ | 11 930 ₽/мес</p>
                 <button>
-                  <a href="">ПОДРОБНЕЕ</a>
+                  <a href="cyber">ПОДРОБНЕЕ</a>
                 </button>
               </div>
             </nav>

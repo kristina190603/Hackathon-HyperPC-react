@@ -538,7 +538,7 @@ const Lumen = () => {
             </div>
 
             <div>
-              <a href="">
+              <a href="volt">
                 <img
                   src="https://hyperpc.ru/images/product/gaming-pc/content/hyperpc-volt-silver-us.jpg"
                   alt=""
@@ -546,29 +546,29 @@ const Lumen = () => {
               </a>
 
               <h2>
-                <a href="">VOLT</a>
+                <a href="volt">VOLT</a>
               </h2>
               <p>Современный игровой компьютер</p>
               <p>От 299 000 ₽ | 11 112 ₽/мес</p>
               <button>
-                <a href="">ПОДРОБНЕЕ</a>
+                <a href="volt">ПОДРОБНЕЕ</a>
               </button>
             </div>
 
             <div>
-              <a href="#cyber">
+              <a href="cyber">
                 <img
                   src="https://hyperpc.ru/images/product/gaming-pc/content/hyperpc-cyber-standard-black-us.jpg"
                   alt=""
                 />
               </a>
               <h2>
-                <a href="#cyber">CYBER</a>
+                <a href="cyber">CYBER</a>
               </h2>
               <p>Самый мощный игровой компьютер</p>
               <p>От 321 000 ₽ | 11 930 ₽/мес</p>
               <button>
-                <a href="">ПОДРОБНЕЕ</a>
+                <a href="cyber">ПОДРОБНЕЕ</a>
               </button>
             </div>
           </nav>
