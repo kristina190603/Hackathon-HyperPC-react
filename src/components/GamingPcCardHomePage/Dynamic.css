@@ -35,7 +35,8 @@ body{
   width: 100%;
   object-fit: cover;
 }
-.lumenH3 {
+.dynamicH3 {
+  background-color: black;
   text-align: center;
   color: white;
   font-size: 60px;
@@ -120,6 +121,7 @@ body{
   margin-left: 20px;
 }
 .backgroundTExt1 {
+  margin-top: -8px;
   background: black;
 }
 .backgroundTExt2{
